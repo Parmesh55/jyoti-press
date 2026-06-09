@@ -317,407 +317,312 @@
    ABOUT SECTION RESPONSIVE
    ============================================ */
 @media (max-width: 1280px) {
-    .about-container {
-        gap: 60px;
-    }
+  .about-container {
+    gap: 60px;
+  }
 
-    .about-right {
-        width: clamp(320px, 40vw, 500px);
-    }
+  .about-right {
+    width: clamp(320px, 40vw, 500px);
+  }
 
-    .about-images-composition {
-        width: 280px;
-        height: 390px;
-    }
+  .about-images-composition {
+    width: 280px;
+    height: 390px;
+  }
 
-    .about-img-card--back {
-        width: 210px;
-        height: 275px;
-        right: -20px;
-    }
+  .about-img-card--back {
+    width: 210px;
+    height: 275px;
+    right: -20px;
+  }
 
-    .about-img-card--front {
-        width: 195px;
-        height: 258px;
-    }
+  .about-img-card--front {
+    width: 195px;
+    height: 258px;
+  }
 }
 
 @media (max-width: 1024px) {
-    .about-container {
-        gap: 44px;
-        padding: 48px 0 72px;
-    }
+  .about-container {
+    gap: 44px;
+    padding: 48px 0 72px;
+  }
 
-    .about-left {
-        order: 1;
-    }
+  .about-left {
+    order: 1;
+  }
 
-    .about-right {
-        width: clamp(300px, 44vw, 440px);
-        min-height: 420px;
-        order: 2;
-    }
+  .about-right {
+    width: clamp(300px, 44vw, 440px);
+    min-height: 420px;
+    order: 2;
+  }
 
-    .about-images-composition {
-        width: 260px;
-        height: 360px;
-    }
+  .about-images-composition {
+    width: 260px;
+    height: 360px;
+  }
 
-    .about-img-card--back {
-        width: 195px;
-        height: 255px;
-        right: -14px;
-        top: 80px;
-    }
+  .about-img-card--back {
+    width: 195px;
+    height: 255px;
+    right: -14px;
+    top: 80px;
+  }
 
-    .about-img-card--front {
-        width: 180px;
-        height: 240px;
-        top: 30px;
-        left: -6px;
-    }
+  .about-img-card--front {
+    width: 180px;
+    height: 240px;
+    top: 30px;
+    left: -6px;
+  }
 
-    .about-chip--print {
-        right: 0;
-    }
+  .about-chip--print {
+    right: 0;
+  }
 
-    .about-chip--clients {
-        right: 0;
-    }
+  .about-chip--clients {
+    right: 0;
+  }
 
-    .about-right-bg {
-        right: -28px;
-    }
+  .about-right-bg {
+    right: -28px;
+  }
 }
 
 @media (max-width: 768px) {
-    .about-container {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 48px;
-        padding: 40px 0 64px;
-    }
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    padding: 40px 0 60px;
+  }
 
-    .about-left {
-        max-width: 100%;
-        gap: 20px;
-        order: 1;
-    }
+  .about-left {
+    max-width: 100%;
+    gap: 18px;
+    order: 1;
+  }
 
-    .about-right {
-        width: 100%;
-        min-height: 360px;
-        justify-content: flex-start;
-        padding-left: 20px;
-        order: 2;
-    }
+  .about-right {
+    width: 100%;
+    min-height: auto;
+    padding: 0;
+    justify-content: center;
+    overflow: visible;
+    order: 2;
+  }
 
-    .about-right-bg {
-        right: 0;
-        top: -12px;
-        width: 58%;
-        height: calc(100% + 24px);
-        border-radius: 16px;
-    }
+  .about-right-bg,
+  .about-dot-grid,
+  .about-arc-wrap,
+  .about-img-card--back {
+    display: none;
+  }
 
-    .about-images-composition {
-        width: 280px;
-        height: 380px;
-    }
+  .about-images-composition {
+    width: min(340px, 90vw);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
 
-    .about-img-card--back {
-        width: 210px;
-        height: 275px;
-        right: -10px;
-        top: 75px;
-    }
+  .about-img-card--front {
+    position: relative;
+    width: min(320px, 86vw);
+    height: 340px;
+    top: auto;
+    left: auto;
+    transform: none;
+    border-radius: 18px;
+  }
 
-    .about-img-card--front {
-        width: 195px;
-        height: 258px;
-        top: 22px;
-        left: -4px;
-    }
+  .about-img-card--front:hover {
+    transform: none;
+  }
 
-    .about-chip--print {
-        right: 0;
-    }
+  .about-chip {
+    position: relative;
+    min-width: 160px;
+    padding: 11px 14px;
+    gap: 10px;
+  }
 
-    .about-chip--clients {
-        right: 0;
-    }
+  .about-chip--print,
+  .about-chip--clients {
+    top: auto;
+    right: auto;
+    bottom: auto;
+  }
 
-    .about-stats-container {
-        flex-wrap: wrap;
-        gap: 0;
-        padding: 36px 0;
-    }
+  .about-est-badge {
+    bottom: 12px;
+    left: 12px;
+  }
 
-    .about-stat-item {
-        flex: 0 0 50%;
-        padding: 20px 16px;
-        border-bottom: 1px solid #f0d8da;
-    }
+  .about-stats-container {
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 32px 0;
+  }
 
-    .about-stat-item:nth-child(n+5) {
-        border-bottom: none;
-    }
+  .about-stat-item {
+    flex: 0 0 50%;
+    padding: 18px 14px;
+    border-bottom: 1px solid #f0d8da;
+  }
 
-    .about-stats-divider {
-        display: none;
-    }
+  .about-stat-item:nth-child(n+5) {
+    border-bottom: none;
+  }
+
+  .about-stats-divider {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
-    .about-container {
-        padding: 32px 0 56px;
-        gap: 40px;
-    }
+  .about-container {
+    padding: 32px 0 52px;
+    gap: 30px;
+  }
 
-    .about-right {
-        width: 100%;
-        min-height: auto;
-        padding: 20px 0;
-        justify-content: center;
-        overflow: visible;
-    }
+  .about-right {
+    width: 100%;
+    justify-content: center;
+  }
 
-    .about-right-bg {
-        display: none;
-    }
+  .about-images-composition {
+    width: min(300px, 88vw);
+    gap: 10px;
+  }
 
-    .about-images-composition {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 14px;
-    }
+  .about-img-card--front {
+    width: min(300px, 88vw);
+    height: 300px;
+  }
 
-    .about-img-card--back {
-        display: none;
-    }
+  .about-chip {
+    min-width: 148px;
+    padding: 10px 12px;
+    gap: 8px;
+  }
 
-    .about-img-card--front {
-        position: relative;
-        width: min(280px, 85vw);
-        height: 340px;
-        top: auto;
-        left: auto;
-        transform: none;
-        border-radius: 18px;
-    }
+  .about-chip-num {
+    font-size: 16px;
+  }
 
-    .about-img-card--front:hover {
-        transform: none;
-    }
+  .about-chip-label {
+    font-size: 9.5px;
+  }
 
-    .about-chip {
-        position: relative;
-        min-width: 160px;
-        padding: 12px 16px;
-        gap: 10px;
-    }
+  .about-chip-icon {
+    width: 28px;
+    height: 28px;
+  }
 
-    .about-chip-num {
-        font-size: 17px;
-    }
+  .about-chip-icon i {
+    font-size: 12px;
+  }
 
-    .about-chip-label {
-        font-size: 10px;
-    }
+  .about-est-year {
+    font-size: 18px;
+  }
 
-    .about-chip-icon {
-        width: 30px;
-        height: 30px;
-    }
+  .about-est-badge {
+    padding: 9px 12px;
+    bottom: 10px;
+    left: 10px;
+  }
 
-    .about-chip-icon i {
-        font-size: 13px;
-    }
+  .about-stat-item {
+    padding: 16px 10px;
+  }
 
-    .about-chip--print,
-    .about-chip--clients {
-        top: auto;
-        right: auto;
-        bottom: auto;
-    }
+  .about-stat-desc {
+    display: none;
+  }
 
-    .about-est-year {
-        font-size: 20px;
-    }
+  .about-highlight-item {
+    gap: 11px;
+  }
 
-    .about-est-badge {
-        padding: 10px 14px;
-        bottom: 12px;
-        left: 12px;
-    }
-
-    .about-cta {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .about-stat-item {
-        flex: 0 0 50%;
-        padding: 18px 12px;
-    }
-
-    .about-stats-container {
-        padding: 28px 0;
-    }
-
-    .about-stat-desc {
-        display: none;
-    }
-
-    .about-arc-wrap {
-        display: none;
-    }
-
-    .about-dot-grid {
-        display: none;
-    }
-
-    .about-highlight-item {
-        gap: 11px;
-    }
-
-    .about-highlight-icon {
-        width: 36px;
-        height: 36px;
-    }
+  .about-highlight-icon {
+    width: 36px;
+    height: 36px;
+  }
 }
 
-/* 390px — restores layered composition (overrides 480px flat layout) */
 @media (max-width: 390px) {
-    .about-container {
-        padding: 28px 0 48px;
-    }
+  .about-container {
+    padding: 28px 0 48px;
+  }
 
-    .about-right {
-        min-height: 290px;
-        padding-left: 4px;
-    }
+  .about-images-composition {
+    width: min(260px, 88vw);
+  }
 
-    .about-images-composition {
-        width: 215px;
-        height: 300px;
-        display: block;
-        flex-direction: unset;
-        align-items: unset;
-        gap: unset;
-    }
+  .about-img-card--front {
+    width: min(260px, 88vw);
+    height: 270px;
+  }
 
-    .about-img-card--back {
-        display: block;
-        position: absolute;
-        width: 160px;
-        height: 210px;
-        top: 62px;
-        right: -4px;
-    }
+  .about-chip {
+    min-width: 136px;
+    padding: 9px 11px;
+  }
 
-    .about-img-card--front {
-        position: absolute;
-        width: 148px;
-        height: 196px;
-        top: 14px;
-        left: auto;
-        transform: rotate(-3deg);
-    }
+  .about-chip-num {
+    font-size: 15px;
+  }
 
-    .about-img-card--front:hover {
-        transform: rotate(-3deg) translateY(-6px);
-    }
-
-    .about-chip {
-        position: absolute;
-        min-width: 118px;
-        padding: 9px 10px;
-        border-radius: 10px;
-    }
-
-    .about-chip--print {
-        top: 4px;
-        right: 0;
-        bottom: auto;
-    }
-
-    .about-chip--clients {
-        bottom: 28px;
-        right: 0;
-        top: auto;
-    }
-
-    .about-right-bg {
-        display: block;
-        width: 50%;
-        border-radius: 12px;
-    }
-
-    .about-stat-item {
-        padding: 16px 10px;
-    }
+  .about-est-year {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 360px) {
-    .about-container {
-        padding: 24px 0 44px;
-    }
+  .about-container {
+    padding: 24px 0 44px;
+  }
 
-    .about-right {
-        min-height: 270px;
-    }
+  .about-images-composition {
+    width: min(240px, 90vw);
+  }
 
-    .about-images-composition {
-        width: 200px;
-        height: 280px;
-    }
+  .about-img-card--front {
+    width: min(240px, 90vw);
+    height: 250px;
+  }
 
-    .about-img-card--back {
-        width: 148px;
-        height: 195px;
-        top: 56px;
-    }
+  .about-chip {
+    min-width: 128px;
+    padding: 8px 10px;
+    gap: 7px;
+  }
 
-    .about-img-card--front {
-        width: 138px;
-        height: 183px;
-        top: 12px;
-    }
+  .about-chip-num {
+    font-size: 14px;
+  }
 
-    .about-right-bg {
-        width: 46%;
-    }
+  .about-chip-icon {
+    width: 27px;
+    height: 27px;
+  }
 
-    .about-chip {
-        padding: 8px 9px;
-        min-width: 110px;
-        gap: 7px;
-    }
+  .about-chip-icon i {
+    font-size: 11px;
+  }
 
-    .about-chip-num {
-        font-size: 15px;
-    }
+  .about-est-year {
+    font-size: 15px;
+  }
 
-    .about-chip-icon {
-        width: 27px;
-        height: 27px;
-    }
-
-    .about-chip-icon i {
-        font-size: 11px;
-    }
-
-    .about-est-year {
-        font-size: 16px;
-    }
-
-    .about-est-badge {
-        padding: 7px 9px;
-    }
+  .about-est-badge {
+    padding: 7px 9px;
+  }
 }
 
 /* ============================================
