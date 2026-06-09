@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="fp.page.title">Flex Printing – Jyoti Press</title>
+    <link rel="stylesheet" href="../css/FlexPrinting.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">
+                <img src="../assets/img/eng_logo.png" id="siteLogo" alt="Jyoti Press"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+                <span class="logo-fallback">Jyoti Press</span>
+            </a>
+            <nav class="nav-links">
+                <a href="../index.html" data-i18n="services.nav.home">Home</a>
+                <a href="../index.html#about" data-i18n="nav.about">About us</a>
+                <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+                <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="lang-btn language-btn" data-i18n="lang.btn">EN / HI</button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="../index.html" data-i18n="services.nav.home">Home</a>
+            <a href="../index.html#about" data-i18n="nav.about">About us</a>
+            <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+            <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- ========== SERVICE CATEGORIES BAR ========== -->
+    <section class="cat-bar" id="catBar">
+        <div class="cat-track" id="catTrack">
+            <button class="cat-item" data-target="offset-section">
+                <span class="material-icons">print</span>
+                <span class="cat-label" data-i18n="sv.cat.offset">Offset Printing</span>
+            </button>
+            <button class="cat-item" data-target="digital-section">
+                <span class="material-icons">settings_input_component</span>
+                <span class="cat-label" data-i18n="sv.cat.digital">Digital Printing</span>
+            </button>
+            <button class="cat-item" data-target="screen-section">
+                <span class="material-icons">format_paint</span>
+                <span class="cat-label" data-i18n="sv.cat.screen">Screen Printing</span>
+            </button>
+            <button class="cat-item active" data-target="flex-section">
+                <span class="material-icons">layers</span>
+                <span class="cat-label" data-i18n="sv.cat.flex">Flex Printing</span>
+            </button>
+            <button class="cat-item" data-target="hoarding">
+                <span class="material-icons">view_quilt</span>
+                <span class="cat-label" data-i18n="sv.cat.hoarding">Hoarding</span>
+            </button>
+            <button class="cat-item" data-target="outdoor-advertising">
+                <span class="material-icons">campaign</span>
+                <span class="cat-label" data-i18n="sv.cat.outdoor">Outdoor Advertising</span>
+            </button>
+            <button class="cat-item" data-target="wall-wrap">
+                <span class="material-icons">wallpaper</span>
+                <span class="cat-label" data-i18n="sv.cat.wallwrap">Wall Wrap</span>
+            </button>
+            <button class="cat-item" data-target="wall-painting">
+                <span class="material-icons">brush</span>
+                <span class="cat-label" data-i18n="sv.cat.wallpaint">Wall Painting</span>
+            </button>
+            <button class="cat-item" data-target="events">
+                <span class="material-icons">event</span>
+                <span class="cat-label" data-i18n="sv.cat.events">Events</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ========== FLEX PRINTING — HERO ========== -->
+    <section class="op-hero" id="flex-section">
+        <div class="op-hero-bg"
+            style="background-image: url('../assets/img/FlexPrinting/Promotional Banners.jpg');"></div>
+        <div class="op-hero-overlay fp-overlay"></div>
+        <div class="op-hero-content">
+            <p class="op-eyebrow" data-i18n="fp.hero.eyebrow">BANNERS &amp; SIGN BOARDS</p>
+            <h1 class="op-heading" data-i18n-html="fp.hero.heading">Banners, Sign Boards &amp; Hoardings<br />That Get You Noticed</h1>
+            <p class="op-sub" data-i18n="fp.hero.sub">Want people to see your shop, event, or business from far away? Flex printing is how you get big, bright banners and sign boards. Perfect for shops, restaurants, schools, political campaigns, and outdoor events.</p>
+            <div class="op-hero-btns">
+                <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="btn-outline">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span data-i18n="fp.hero.btn.wa">Chat on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRODUCT SHOWCASE ========== -->
+    <section class="op-products fp-products-bg">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag fp-section-tag" data-i18n="fp.products.tag">What We Make</span>
+                <h2 class="op-section-heading" data-i18n-html="fp.products.heading">Big Prints That People Can See<br />From Far Away</h2>
+                <p class="op-section-sub" data-i18n="fp.products.sub">From shop sign boards to large outdoor banners — we print whatever you need to make your business or event visible to everyone.</p>
+            </div>
+
+            <div class="op-product-grid">
+
+                <!-- Business Signage -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/FlexPrinting/Business Signage.jpg" alt="Business Signage" />
+                        <div class="op-product-badge fp-badge-primary" data-i18n="fp.card1.badge">Most Popular</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="fp.card1.title">Shop Sign Boards</h3>
+                        <p data-i18n="fp.card1.desc">A good sign board helps people find your shop easily. We make shop boards, name plates, and glow signs that look sharp day and night.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card1.li1">Shop Sign Boards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card1.li2">ACP Sign Boards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card1.li3">Glow Sign Boards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card1.li4">LED Signage</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card1.li5">Name Plates</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Promotional Banners -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/FlexPrinting/Promotional Banners.jpg" alt="Promotional Banners" />
+                        <div class="op-product-badge fp-badge-secondary" data-i18n="fp.card2.badge">Advertising</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="fp.card2.title">Banners &amp; Hoardings</h3>
+                        <p data-i18n="fp.card2.desc">Need a banner for your sale, event, or opening? We print large banners in bright colours that are easy to read from a distance.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card2.li1">Flex Banners</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card2.li2">Vinyl Banners</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card2.li3">Event Banners</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card2.li4">Festival Banners</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card2.li5">Promotional Displays</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Retail Branding -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/FlexPrinting/Retail Branding.jpg" alt="Retail Branding" />
+                        <div class="op-product-badge fp-badge-tertiary" data-i18n="fp.card3.badge">Retail</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="fp.card3.title">Shop &amp; Store Displays</h3>
+                        <p data-i18n="fp.card3.desc">Make your store look attractive and welcoming. We print window graphics, shop front displays, and sale banners that draw customers in.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card3.li1">Store Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card3.li2">Shop Front Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card3.li3">Window Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card3.li4">Sale Promotions</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card3.li5">Retail Displays</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Event Branding -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/FlexPrinting/Event Branding.jpg" alt="Event Branding" />
+                        <div class="op-product-badge fp-badge-secondary" data-i18n="fp.card4.badge">Events</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="fp.card4.title">Event Banners &amp; Backdrops</h3>
+                        <p data-i18n="fp.card4.desc">Planning a function, ceremony, or exhibition? We print stage backdrops, welcome gates, and sponsor boards that make your event look well-organised.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card4.li1">Stage Backdrops</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card4.li2">Welcome Gates</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card4.li3">Branding Panels</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card4.li4">Exhibition Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card4.li5">Sponsor Boards</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Outdoor Advertising -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/FlexPrinting/Outdoor Advertising.jpg" alt="Outdoor Advertising" />
+                        <div class="op-product-badge fp-badge-primary" data-i18n="fp.card5.badge">Outdoor</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="fp.card5.title">Outdoor Displays</h3>
+                        <p data-i18n="fp.card5.desc">Reach more people by putting your message in public spaces. We print pole kiosks, roadside displays, and campaign materials that are hard to miss.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card5.li1">Pole Kiosks</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card5.li2">Roadside Displays</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card5.li3">Traffic Barricade Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card5.li4">Street Promotions</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card5.li5">Public Awareness Campaigns</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Vehicle Branding -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/FlexPrinting/Vehicle Branding.jpg" alt="Vehicle Branding" />
+                        <div class="op-product-badge fp-badge-tertiary" data-i18n="fp.card6.badge">Mobile Advertising</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="fp.card6.title">Vehicle Graphics</h3>
+                        <p data-i18n="fp.card6.desc">Turn your car, auto, or delivery van into a moving advertisement. Wherever your vehicle goes, people see your name and number.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card6.li1">Car Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card6.li2">Auto Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card6.li3">Van Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card6.li4">Trucks and Tempos</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="fp.card6.li5">Multiple Vehicle Printing</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE FLEX PRINTING ========== -->
+    <section class="fp-why">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag fp-section-tag" data-i18n="fp.why.tag">Why Flex Printing</span>
+                <h2 class="op-section-heading" data-i18n="fp.why.heading">Why Flex Printing is a Smart Choice</h2>
+            </div>
+            <div class="fp-why-grid">
+
+                <div class="fp-why-card">
+                    <div class="fp-why-icon">
+                        <span class="material-icons">water_drop</span>
+                    </div>
+                    <h3 data-i18n="fp.why.c1.title">Survives Rain &amp; Heat</h3>
+                    <p data-i18n="fp.why.c1.desc">Flex banners and sign boards are built to handle sun, rain, and dust. They stay colourful and intact outdoors for a long time.</p>
+                </div>
+
+                <div class="fp-why-card">
+                    <div class="fp-why-icon">
+                        <span class="material-icons">visibility</span>
+                    </div>
+                    <h3 data-i18n="fp.why.c2.title">Visible from Far Away</h3>
+                    <p data-i18n="fp.why.c2.desc">Big, bold prints that people can see clearly from the road or footpath. Your message reaches more people every day.</p>
+                </div>
+
+                <div class="fp-why-card">
+                    <div class="fp-why-icon">
+                        <span class="material-icons">palette</span>
+                    </div>
+                    <h3 data-i18n="fp.why.c3.title">Bright &amp; Attractive Colours</h3>
+                    <p data-i18n="fp.why.c3.desc">We print in rich, eye-catching colours that make your banner or sign board look attractive and professional.</p>
+                </div>
+
+                <div class="fp-why-card">
+                    <div class="fp-why-icon">
+                        <span class="material-icons">savings</span>
+                    </div>
+                    <h3 data-i18n="fp.why.c4.title">Good Value for Money</h3>
+                    <p data-i18n="fp.why.c4.desc">Flex printing gives you big, attractive advertising at an affordable price. A great option for businesses of all sizes.</p>
+                </div>
+
+                <div class="fp-why-card">
+                    <div class="fp-why-icon">
+                        <span class="material-icons">open_with</span>
+                    </div>
+                    <h3 data-i18n="fp.why.c5.title">Any Size You Need</h3>
+                    <p data-i18n="fp.why.c5.desc">Small window graphics or a massive building hoarding — we print at any size without losing quality.</p>
+                </div>
+
+                <div class="fp-why-card">
+                    <div class="fp-why-icon">
+                        <span class="material-icons">speed</span>
+                    </div>
+                    <h3 data-i18n="fp.why.c6.title">Ready When You Need It</h3>
+                    <p data-i18n="fp.why.c6.desc">We understand that events and deadlines don't wait. Your banners and sign boards are printed and delivered on time.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROCESS SECTION ========== -->
+    <section class="fp-process">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="fp-section-tag-light" data-i18n="fp.process.tag">How It Works</span>
+                <h2 class="op-section-heading op-section-heading--light" data-i18n="fp.process.heading">How We Get Your Order Done</h2>
+            </div>
+            <div class="fp-process-steps">
+
+                <div class="fp-process-step">
+                    <div class="fp-step-number">01</div>
+                    <div class="fp-step-icon">
+                        <span class="material-icons">record_voice_over</span>
+                    </div>
+                    <h3 data-i18n="fp.process.s1.title">You Tell Us What You Need</h3>
+                    <p data-i18n="fp.process.s1.desc">Just let us know — what size, what message, and where it will be displayed. We'll help you figure out the best option.</p>
+                </div>
+
+                <div class="fp-process-connector"></div>
+
+                <div class="fp-process-step">
+                    <div class="fp-step-number">02</div>
+                    <div class="fp-step-icon">
+                        <span class="material-icons">draw</span>
+                    </div>
+                    <h3 data-i18n="fp.process.s2.title">Design is Prepared</h3>
+                    <p data-i18n="fp.process.s2.desc">We get your design ready for printing at full size. If needed, we adjust the layout so everything looks clear and sharp.</p>
+                </div>
+
+                <div class="fp-process-connector"></div>
+
+                <div class="fp-process-step">
+                    <div class="fp-step-number">03</div>
+                    <div class="fp-step-icon">
+                        <span class="material-icons">print</span>
+                    </div>
+                    <h3 data-i18n="fp.process.s3.title">Printed on Quality Material</h3>
+                    <p data-i18n="fp.process.s3.desc">We print your banner or sign board using high-quality inks that stay bright outdoors. Every piece is checked before it leaves.</p>
+                </div>
+
+                <div class="fp-process-connector"></div>
+
+                <div class="fp-process-step">
+                    <div class="fp-step-number">04</div>
+                    <div class="fp-step-icon">
+                        <span class="material-icons">local_shipping</span>
+                    </div>
+                    <h3 data-i18n="fp.process.s4.title">Delivered or Installed</h3>
+                    <p data-i18n="fp.process.s4.desc">We deliver your order on time. For sign boards and hoardings, we can also help with installation at your location.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CALL TO ACTION ========== -->
+    <section class="op-cta fp-cta-section" id="fp-quote">
+        <div class="op-cta-bg"
+            style="background-image: url('../assets/img/FlexPrinting/Outdoor Advertising.jpg');"></div>
+        <div class="op-cta-overlay fp-cta-overlay"></div>
+        <div class="op-container op-cta-inner">
+            <div class="op-cta-text">
+                <h2 data-i18n="fp.cta.heading">Need a Banner, Sign Board, or Hoarding?</h2>
+                <p data-i18n="fp.cta.para">Just call us or send a WhatsApp message. Tell us your size and what you want printed. We'll give you a fair price and get it done on time.</p>
+            </div>
+            <div class="op-cta-btns">
+                <a href="https://wa.me/919415277666" target="_blank" rel="noopener"
+                    class="btn-primary fp-btn-primary op-cta-wa">
+                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="fp.cta.btn.wa">Chat on WhatsApp</span>
+                </a>
+                <a href="tel:9415277666" class="email-btn">
+                    <i class="fas fa-phone"></i>
+                    <span data-i18n="fp.cta.btn.call">Call Us</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" id="footer">
+        <div class="footer-main">
+            <div class="footer-grid">
+
+                <div class="footer-col footer-col--brand">
+                    <a href="../index.html#home" class="footer-logo-link" tabindex="-1">
+                        <img src="../assets/img/eng_logo.png" id="footerLogo" alt="Jyoti Press Logo" class="footer-logo-img"
+                            draggable="false" />
+                    </a>
+                    <p class="footer-brand-desc" data-i18n="footer.brand.desc">Helping businesses, schools, and organisations with trusted printing
+                        and advertising services since 1965.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ql.heading">Quick Links</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="../index.html#home" data-i18n="footer.ql.home">Home</a></li>
+                        <li><a href="../index.html#about" data-i18n="footer.ql.about">About Us</a></li>
+                        <li><a href="../index.html#why-us" data-i18n="footer.ql.whyus">Why Choose Us</a></li>
+                        <li><a href="../index.html#services" data-i18n="footer.ql.services">Our Services</a></li>
+                        <li><a href="contact.html" data-i18n="footer.ql.contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.sv.heading">Services</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="services.html#offset-printing" data-i18n="footer.sv.offset">Offset Printing</a></li>
+                        <li><a href="digitalPrinting.html" data-i18n="footer.sv.digital">Digital Printing</a></li>
+                        <li><a href="ScreenPrinting.html" data-i18n="footer.sv.screen">Screen Printing</a></li>
+                        <li><a href="FlexPrinting.html" data-i18n="footer.sv.flex">Flex Printing</a></li>
+                        <li><a href="Hoarding.html" data-i18n="footer.sv.hoarding">Hoarding</a></li>
+                        <li><a href="OutdoorAdvertising.html" data-i18n="footer.sv.outdoor">Outdoor Advertising</a></li>
+                        <li><a href="WallWrap.html" data-i18n="footer.sv.wallwrap">Wall Wrap</a></li>
+                        <li><a href="WallPainting.html" data-i18n="footer.sv.wallpaint">Wall Painting</a></li>
+                        <li><a href="Event.html" data-i18n="footer.sv.events">Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ct.heading">Get In Touch</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span data-i18n-html="footer.ct.address">10 Park Road, Civil Lines,<br>Gorakhpur &mdash; 273009</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com"
+                                target="_blank" rel="noopener noreferrer">
+                                jyotipress009@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:9415277666">94152 77666</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <span class="footer-copy" data-i18n="footer.copy">&copy; 2026 Jyoti Press. Serving Gorakhpur Since 1965.</span>
+                <div class="footer-bottom-links">
+                    <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+                    <span class="footer-bottom-sep" aria-hidden="true">|</span>
+                    <a href="#" data-i18n="footer.terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/language.js"></script>
+    <script src="../js/translation/FlexPrinting.js"></script>
+    <script src="../js/services.js"></script>
+</body>
+
+</html>

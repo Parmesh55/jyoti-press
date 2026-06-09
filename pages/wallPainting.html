@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="wp.page.title">Wall Painting Services – Jyoti Press</title>
+    <link rel="stylesheet" href="../css/wallPainting.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">
+                <img src="../assets/img/eng_logo.png" id="siteLogo" alt="Jyoti Press"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+                <span class="logo-fallback">Jyoti Press</span>
+            </a>
+            <nav class="nav-links">
+                <a href="../index.html" data-i18n="services.nav.home">Home</a>
+                <a href="../index.html#about" data-i18n="nav.about">About us</a>
+                <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+                <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="lang-btn language-btn" data-i18n="lang.btn">EN / HI</button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="../index.html" data-i18n="services.nav.home">Home</a>
+            <a href="../index.html#about" data-i18n="nav.about">About us</a>
+            <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+            <!-- <a href="portfolio.html">Portfolio</a>
+            <a href="clients.html">Clients</a> -->
+            <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- ========== SERVICE CATEGORIES BAR ========== -->
+    <section class="cat-bar" id="catBar">
+        <div class="cat-track" id="catTrack">
+            <button class="cat-item" data-target="offset-section">
+                <span class="material-icons">print</span>
+                <span class="cat-label" data-i18n="sv.cat.offset">Offset Printing</span>
+            </button>
+            <button class="cat-item" data-target="digital-section">
+                <span class="material-icons">settings_input_component</span>
+                <span class="cat-label" data-i18n="sv.cat.digital">Digital Printing</span>
+            </button>
+            <button class="cat-item" data-target="screen-section">
+                <span class="material-icons">format_paint</span>
+                <span class="cat-label" data-i18n="sv.cat.screen">Screen Printing</span>
+            </button>
+            <button class="cat-item" data-target="flex-section">
+                <span class="material-icons">layers</span>
+                <span class="cat-label" data-i18n="sv.cat.flex">Flex Printing</span>
+            </button>
+            <button class="cat-item" data-target="hoarding-section">
+                <span class="material-icons">view_quilt</span>
+                <span class="cat-label" data-i18n="sv.cat.hoarding">Hoarding</span>
+            </button>
+            <button class="cat-item" data-target="outdoor-advertising">
+                <span class="material-icons">campaign</span>
+                <span class="cat-label" data-i18n="sv.cat.outdoor">Outdoor Advertising</span>
+            </button>
+            <button class="cat-item" data-target="wall-wrap">
+                <span class="material-icons">wallpaper</span>
+                <span class="cat-label" data-i18n="sv.cat.wallwrap">Wall Wrap</span>
+            </button>
+            <button class="cat-item active" data-target="wall-painting">
+                <span class="material-icons">brush</span>
+                <span class="cat-label" data-i18n="sv.cat.wallpaint">Wall Painting</span>
+            </button>
+            <button class="cat-item" data-target="events">
+                <span class="material-icons">event</span>
+                <span class="cat-label" data-i18n="sv.cat.events">Events</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ========== WALL PAINTING — HERO ========== -->
+    <section class="op-hero" id="wall-painting-section">
+        <div class="op-hero-bg"
+            style="background-image: url('../assets/img/wallPainting/Commercial Wall Painting.jpg');"></div>
+        <div class="op-hero-overlay wp-overlay"></div>
+        <div class="op-hero-content">
+            <p class="op-eyebrow" data-i18n="wp.hero.eyebrow">CUSTOM WALL PAINTING SERVICES</p>
+            <h1 class="op-heading" data-i18n-html="wp.hero.heading">Bring Walls to Life<br />With Creative Artwork</h1>
+            <p class="op-sub" data-i18n="wp.hero.sub">From business branding and school graphics to decorative murals and public awareness projects, we create wall paintings that make spaces more attractive, memorable, and meaningful.</p>
+            <div class="op-hero-btns">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com"
+                    target="_blank" rel="noopener noreferrer"
+                    class="btn-primary wp-btn-primary">
+                    <i class="fas fa-envelope"></i> <span data-i18n="wp.hero.btn.email">Contact Us</span>
+                </a>
+                <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="btn-outline">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span data-i18n="wp.hero.btn.wa">Chat on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WALL PAINTING SERVICES ========== -->
+    <section class="op-products wp-products-bg">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag wp-section-tag" data-i18n="wp.products.tag">What We Paint</span>
+                <h2 class="op-section-heading" data-i18n-html="wp.products.heading">Creative Wall Painting<br />For Every Space</h2>
+                <p class="op-section-sub" data-i18n="wp.products.sub">Professional wall painting services that help businesses, schools, restaurants, and public spaces stand out.</p>
+            </div>
+
+            <div class="op-product-grid">
+
+                <!-- Commercial Wall Painting -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/wallPainting/Commercial Wall Painting.jpg" alt="Commercial Wall Painting" />
+                        <div class="op-product-badge wp-badge-primary" data-i18n="wp.card1.badge">Business</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="wp.card1.title">Commercial Wall Painting</h3>
+                        <p data-i18n="wp.card1.desc">Professional wall paintings designed to improve visibility and strengthen business identity.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card1.li1">Shop Exterior Painting</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card1.li2">Business Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card1.li3">Commercial Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card1.li4">Street Facing Walls</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card1.li5">Brand Promotions</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Advertising Wall Paintings -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/wallPainting/Advertising Wall Paintings.jpg" alt="Advertising Wall Paintings" />
+                        <div class="op-product-badge wp-badge-secondary" data-i18n="wp.card2.badge">Advertising</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="wp.card2.title">Advertising Wall Paintings</h3>
+                        <p data-i18n="wp.card2.desc">Traditional painted advertisements that remain visible for long periods and attract attention.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card2.li1">Brand Advertising</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card2.li2">Product Promotions</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card2.li3">Rural Advertising</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card2.li4">Market Campaigns</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card2.li5">Outdoor Promotions</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- School & Educational Walls -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/wallPainting/School & Educational Walls.jpg" alt="School & Educational Walls" />
+                        <div class="op-product-badge wp-badge-tertiary" data-i18n="wp.card3.badge">Education</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n-html="wp.card3.title">School &amp; Educational Walls</h3>
+                        <p data-i18n="wp.card3.desc">Make learning spaces more engaging with educational and motivational wall artwork.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card3.li1">Learning Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card3.li2">Motivational Quotes</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card3.li3">Classroom Artwork</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card3.li4">Campus Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card3.li5">Educational Themes</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Decorative Murals -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/wallPainting/Decorative Murals.jpg" alt="Decorative Murals" />
+                        <div class="op-product-badge wp-badge-primary" data-i18n="wp.card4.badge">Creative</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="wp.card4.title">Decorative Murals</h3>
+                        <p data-i18n="wp.card4.desc">Custom artistic murals that add beauty, creativity, and character to any environment.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card4.li1">Artistic Murals</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card4.li2">Nature Themes</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card4.li3">Cultural Artwork</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card4.li4">Custom Paintings</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card4.li5">Decorative Designs</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Restaurant & Cafe Artwork -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/wallPainting/Restaurant & Cafe Artwork.jpg" alt="Restaurant & Cafe Artwork" />
+                        <div class="op-product-badge wp-badge-secondary" data-i18n="wp.card5.badge">Hospitality</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n-html="wp.card5.title">Restaurant &amp; Cafe Artwork</h3>
+                        <p data-i18n="wp.card5.desc">Create inviting dining spaces with unique painted artwork and themed wall designs.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card5.li1">Theme Artwork</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card5.li2">Food Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card5.li3">Decorative Paintings</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card5.li4">Cafe Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card5.li5">Interior Murals</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Public Awareness Projects -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/wallPainting/Public Awareness Projects.jpg" alt="Public Awareness Projects" />
+                        <div class="op-product-badge wp-badge-tertiary" data-i18n="wp.card6.badge">Community</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="wp.card6.title">Public Awareness Projects</h3>
+                        <p data-i18n="wp.card6.desc">Large-scale wall paintings that help communicate social messages and public information.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card6.li1">Awareness Campaigns</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card6.li2">Health Messaging</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card6.li3">Community Projects</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card6.li4">Public Information</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="wp.card6.li5">Social Initiatives</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE WALL PAINTING ========== -->
+    <section class="wp-why">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag wp-section-tag" data-i18n="wp.why.tag">Our Strengths</span>
+                <h2 class="op-section-heading" data-i18n="wp.why.heading">Why Choose Wall Painting?</h2>
+                <p class="op-section-sub" data-i18n="wp.why.sub">Here is what makes our wall painting service stand out from the rest.</p>
+            </div>
+
+            <div class="wp-why-grid">
+
+                <div class="wp-why-card">
+                    <div class="wp-why-icon">
+                        <span class="material-icons">palette</span>
+                    </div>
+                    <h3 data-i18n="wp.why.c1.title">Handcrafted Artwork</h3>
+                    <p data-i18n="wp.why.c1.desc">Every painting is created by hand with care and skill, giving your walls a truly unique and personal touch that print can never match.</p>
+                </div>
+
+                <div class="wp-why-card">
+                    <div class="wp-why-icon">
+                        <span class="material-icons">design_services</span>
+                    </div>
+                    <h3 data-i18n="wp.why.c2.title">Custom Designs</h3>
+                    <p data-i18n="wp.why.c2.desc">We create designs that are made just for you. Whether it is your brand, your school, or your restaurant, we paint exactly what you need.</p>
+                </div>
+
+                <div class="wp-why-card">
+                    <div class="wp-why-icon">
+                        <span class="material-icons">schedule</span>
+                    </div>
+                    <h3 data-i18n="wp.why.c3.title">Long Lasting Finish</h3>
+                    <p data-i18n="wp.why.c3.desc">Our paintings are made to last for years. We use quality paints that hold their colour and stay looking great even in outdoor conditions.</p>
+                </div>
+
+                <div class="wp-why-card">
+                    <div class="wp-why-icon">
+                        <span class="material-icons">groups</span>
+                    </div>
+                    <h3 data-i18n="wp.why.c4.title">Professional Artists</h3>
+                    <p data-i18n="wp.why.c4.desc">Our team of experienced artists brings creativity and precision to every project, big or small, delivering results that impress every time.</p>
+                </div>
+
+                <div class="wp-why-card">
+                    <div class="wp-why-icon">
+                        <span class="material-icons">water_drop</span>
+                    </div>
+                    <h3 data-i18n="wp.why.c5.title">Weather Resistant Paints</h3>
+                    <p data-i18n="wp.why.c5.desc">We use paints that are built to handle rain, sun, and dust. Your wall painting will stay bright and clear through every season.</p>
+                </div>
+
+                <div class="wp-why-card">
+                    <div class="wp-why-icon">
+                        <span class="material-icons">visibility</span>
+                    </div>
+                    <h3 data-i18n="wp.why.c6.title">Unique Visual Appeal</h3>
+                    <p data-i18n="wp.why.c6.desc">A hand-painted wall stands out in a way that nothing else can. It adds personality and energy to any space and leaves a lasting impression on everyone who sees it.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROCESS SECTION ========== -->
+    <section class="wp-process">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="wp-section-tag-light" data-i18n="wp.process.tag">How It Works</span>
+                <h2 class="op-section-heading op-section-heading--light" data-i18n="wp.process.heading">How We Create Your Wall Artwork</h2>
+            </div>
+
+            <div class="wp-process-steps">
+
+                <div class="wp-process-step">
+                    <div class="wp-step-number">01</div>
+                    <div class="wp-step-icon">
+                        <span class="material-icons">record_voice_over</span>
+                    </div>
+                    <h3 data-i18n="wp.process.s1.title">Discuss Your Idea</h3>
+                    <p data-i18n="wp.process.s1.desc">Tell us about your space, the message you want to share, and the look you have in mind. We will listen carefully and understand your vision before we begin.</p>
+                </div>
+
+                <div class="wp-process-connector"></div>
+
+                <div class="wp-process-step">
+                    <div class="wp-step-number">02</div>
+                    <div class="wp-step-icon">
+                        <span class="material-icons">draw</span>
+                    </div>
+                    <h3 data-i18n-html="wp.process.s2.title">Create Design &amp; Sketch</h3>
+                    <p data-i18n="wp.process.s2.desc">Our artists prepare a design and sketch so you can see exactly how your wall will look before we pick up a single brush.</p>
+                </div>
+
+                <div class="wp-process-connector"></div>
+
+                <div class="wp-process-step">
+                    <div class="wp-step-number">03</div>
+                    <div class="wp-step-icon">
+                        <span class="material-icons">format_paint</span>
+                    </div>
+                    <h3 data-i18n="wp.process.s3.title">Prepare The Surface</h3>
+                    <p data-i18n="wp.process.s3.desc">We clean and prepare the wall properly before painting to ensure the colours go on smoothly and the finished result lasts as long as possible.</p>
+                </div>
+
+                <div class="wp-process-connector"></div>
+
+                <div class="wp-process-step">
+                    <div class="wp-step-number">04</div>
+                    <div class="wp-step-icon">
+                        <span class="material-icons">brush</span>
+                    </div>
+                    <h3 data-i18n="wp.process.s4.title">Professional Painting Execution</h3>
+                    <p data-i18n="wp.process.s4.desc">Our skilled painters bring the design to life with precision and care, delivering a finished wall that you will be proud to show everyone.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CALL TO ACTION ========== -->
+    <section class="op-cta wp-cta-section" id="wp-quote">
+        <div class="op-cta-bg"
+            style="background-image: url('../assets/img/wallPainting/Decorative Murals.jpg');"></div>
+        <div class="op-cta-overlay wp-cta-overlay"></div>
+        <div class="op-container op-cta-inner">
+            <div class="op-cta-text">
+                <h2 data-i18n="wp.cta.heading">Ready to Transform Your Walls?</h2>
+                <p data-i18n="wp.cta.para">Let's create beautiful wall paintings that make your space stand out and leave a lasting impression.</p>
+            </div>
+            <div class="op-cta-btns">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com"
+                    target="_blank" rel="noopener noreferrer"
+                    class="btn-primary wp-btn-primary">
+                    <i class="fas fa-envelope"></i> <span data-i18n="wp.cta.btn.email">Contact Us</span>
+                </a>
+                <a href="tel:9415277666" class="email-btn">
+                    <i class="fas fa-phone"></i>
+                    <span data-i18n="wp.cta.btn.call">Call Us</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" id="footer">
+        <div class="footer-main">
+            <div class="footer-grid">
+
+                <div class="footer-col footer-col--brand">
+                    <a href="../index.html#home" class="footer-logo-link" tabindex="-1">
+                        <img src="../assets/img/eng_logo.png" id="footerLogo" alt="Jyoti Press Logo" class="footer-logo-img"
+                            draggable="false" />
+                    </a>
+                    <p class="footer-brand-desc" data-i18n="footer.brand.desc">Helping businesses, schools, and organisations with trusted printing
+                        and advertising services since 1965.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ql.heading">Quick Links</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="../index.html#home" data-i18n="footer.ql.home">Home</a></li>
+                        <li><a href="../index.html#about" data-i18n="footer.ql.about">About Us</a></li>
+                        <li><a href="../index.html#why-us" data-i18n="footer.ql.whyus">Why Choose Us</a></li>
+                        <li><a href="../index.html#services" data-i18n="footer.ql.services">Our Services</a></li>
+                        <li><a href="contact.html" data-i18n="footer.ql.contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.sv.heading">Services</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="services.html#offset-printing" data-i18n="footer.sv.offset">Offset Printing</a></li>
+                        <li><a href="digitalPrinting.html" data-i18n="footer.sv.digital">Digital Printing</a></li>
+                        <li><a href="ScreenPrinting.html" data-i18n="footer.sv.screen">Screen Printing</a></li>
+                        <li><a href="FlexPrinting.html" data-i18n="footer.sv.flex">Flex Printing</a></li>
+                        <li><a href="Hoarding.html" data-i18n="footer.sv.hoarding">Hoarding</a></li>
+                        <li><a href="outdoorAdvertising.html" data-i18n="footer.sv.outdoor">Outdoor Advertising</a></li>
+                        <li><a href="wallWrap.html" data-i18n="footer.sv.wallwrap">Wall Wrap</a></li>
+                        <li><a href="wallPainting.html" data-i18n="footer.sv.wallpaint">Wall Painting</a></li>
+                        <li><a href="event.html" data-i18n="footer.sv.events">Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ct.heading">Get In Touch</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span data-i18n-html="footer.ct.address">10 Park Road, Civil Lines,<br>Gorakhpur &mdash; 273009</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com"
+                                target="_blank" rel="noopener noreferrer">
+                                jyotipress009@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:9415277666">94152 77666</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <span class="footer-copy" data-i18n="footer.copy">&copy; 2026 Jyoti Press. Serving Gorakhpur Since 1965.</span>
+                <div class="footer-bottom-links">
+                    <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+                    <span class="footer-bottom-sep" aria-hidden="true">|</span>
+                    <a href="#" data-i18n="footer.terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/language.js"></script>
+    <script src="../js/translation/wallPainting.js"></script>
+    <script src="../js/services.js"></script>
+</body>
+
+</html>

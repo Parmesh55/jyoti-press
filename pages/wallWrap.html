@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="ww.page.title">Wall Wrap &amp; Graphics – Jyoti Press</title>
+    <link rel="stylesheet" href="../css/wallWrap.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">
+                <img src="../assets/img/eng_logo.png" id="siteLogo" alt="Jyoti Press"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+                <span class="logo-fallback">Jyoti Press</span>
+            </a>
+            <nav class="nav-links">
+                <a href="../index.html" data-i18n="services.nav.home">Home</a>
+                <a href="../index.html#about" data-i18n="nav.about">About us</a>
+                <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+                <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="lang-btn language-btn" data-i18n="lang.btn">EN / HI</button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="../index.html" data-i18n="services.nav.home">Home</a>
+            <a href="../index.html#about" data-i18n="nav.about">About us</a>
+            <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+            <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- ========== SERVICE CATEGORIES BAR ========== -->
+    <section class="cat-bar" id="catBar">
+        <div class="cat-track" id="catTrack">
+            <button class="cat-item" data-target="offset-section">
+                <span class="material-icons">print</span>
+                <span class="cat-label" data-i18n="sv.cat.offset">Offset Printing</span>
+            </button>
+            <button class="cat-item" data-target="digital-section">
+                <span class="material-icons">settings_input_component</span>
+                <span class="cat-label" data-i18n="sv.cat.digital">Digital Printing</span>
+            </button>
+            <button class="cat-item" data-target="screen-section">
+                <span class="material-icons">format_paint</span>
+                <span class="cat-label" data-i18n="sv.cat.screen">Screen Printing</span>
+            </button>
+            <button class="cat-item" data-target="flex-section">
+                <span class="material-icons">layers</span>
+                <span class="cat-label" data-i18n="sv.cat.flex">Flex Printing</span>
+            </button>
+            <button class="cat-item" data-target="hoarding-section">
+                <span class="material-icons">view_quilt</span>
+                <span class="cat-label" data-i18n="sv.cat.hoarding">Hoarding</span>
+            </button>
+            <button class="cat-item" data-target="outdoor-advertising">
+                <span class="material-icons">campaign</span>
+                <span class="cat-label" data-i18n="sv.cat.outdoor">Outdoor Advertising</span>
+            </button>
+            <button class="cat-item active" data-target="wall-wrap">
+                <span class="material-icons">wallpaper</span>
+                <span class="cat-label" data-i18n="sv.cat.wallwrap">Wall Wrap</span>
+            </button>
+            <button class="cat-item" data-target="wall-painting">
+                <span class="material-icons">brush</span>
+                <span class="cat-label" data-i18n="sv.cat.wallpaint">Wall Painting</span>
+            </button>
+            <button class="cat-item" data-target="events">
+                <span class="material-icons">event</span>
+                <span class="cat-label" data-i18n="sv.cat.events">Events</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ========== WALL WRAP — HERO ========== -->
+    <section class="op-hero" id="wall-wrap-section">
+        <div class="op-hero-bg"
+            style="background-image: url('../assets/img/WallWrap/wall_wrap_hero_bg.jpg');"></div>
+        <div class="op-hero-overlay ww-overlay"></div>
+        <div class="op-hero-content">
+            <p class="op-eyebrow" data-i18n="ww.hero.eyebrow">WALL GRAPHICS &amp; BRANDING</p>
+            <h1 class="op-heading" data-i18n-html="ww.hero.heading">Turn Empty Walls<br />Into Eye-Catching Spaces</h1>
+            <p class="op-sub" data-i18n="ww.hero.sub">Make your office, shop, school, restaurant, or commercial space look more attractive with custom wall wraps and graphics designed to leave a lasting impression.</p>
+            <div class="op-hero-btns">
+                <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="btn-outline">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span data-i18n="ww.hero.btn.wa">Chat on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WALL WRAP SERVICES ========== -->
+    <section class="op-products ww-products-bg">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag ww-section-tag" data-i18n="ww.products.tag">What We Create</span>
+                <h2 class="op-section-heading" data-i18n-html="ww.products.heading">Wall Designs That<br />Bring Spaces to Life</h2>
+                <p class="op-section-sub" data-i18n="ww.products.sub">From business branding to decorative graphics, our wall wrap solutions help transform ordinary walls into meaningful visual experiences.</p>
+            </div>
+
+            <div class="op-product-grid">
+
+                <!-- Office Branding -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/WallWrap/Office Branding.jpg" alt="Office Branding" />
+                        <div class="op-product-badge ww-badge-primary" data-i18n="ww.card1.badge">Business</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="ww.card1.title">Office Branding</h3>
+                        <p data-i18n="ww.card1.desc">Create a professional workspace with branded wall graphics that reflect your company identity.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card1.li1">Reception Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card1.li2">Logo Walls</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card1.li3">Company Values</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card1.li4">Corporate Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card1.li5">Office Interiors</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Retail Wall Graphics -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/WallWrap/Retail Wall Graphics.jpg" alt="Retail Wall Graphics" />
+                        <div class="op-product-badge ww-badge-secondary" data-i18n="ww.card2.badge">Retail</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="ww.card2.title">Retail Wall Graphics</h3>
+                        <p data-i18n="ww.card2.desc">Improve your customer experience with attractive wall graphics inside shops and stores.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card2.li1">Store Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card2.li2">Promotional Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card2.li3">Product Displays</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card2.li4">Sales Campaigns</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card2.li5">Retail Decor</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Restaurant & Cafe Wraps -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/WallWrap/Restaurant & Cafe Wraps.jpg" alt="Restaurant &amp; Cafe Wraps" />
+                        <div class="op-product-badge ww-badge-tertiary" data-i18n="ww.card3.badge">Food &amp; Beverage</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="ww.card3.title">Restaurant &amp; Cafe Wraps</h3>
+                        <p data-i18n="ww.card3.desc">Add personality and style to restaurants and cafes with custom wall graphics.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card3.li1">Menu Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card3.li2">Theme Walls</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card3.li3">Decorative Artwork</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card3.li4">Food Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card3.li5">Cafe Interiors</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- School & Educational Graphics -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/WallWrap/School & Educational Graphics.jpg" alt="School &amp; Educational Graphics" />
+                        <div class="op-product-badge ww-badge-primary" data-i18n="ww.card4.badge">Education</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="ww.card4.title">School &amp; Educational Graphics</h3>
+                        <p data-i18n="ww.card4.desc">Create engaging learning spaces with educational and motivational wall graphics.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card4.li1">Learning Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card4.li2">Motivational Quotes</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card4.li3">Classroom Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card4.li4">Campus Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card4.li5">Educational Designs</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Custom Decorative Wall Wraps -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/WallWrap/Custom Decorative Wall Wraps.jpg" alt="Custom Decorative Wall Wraps" />
+                        <div class="op-product-badge ww-badge-secondary" data-i18n="ww.card5.badge">Creative</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="ww.card5.title">Custom Decorative Wall Wraps</h3>
+                        <p data-i18n="ww.card5.desc">Transform walls into creative visual experiences with custom artwork and decorative designs.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card5.li1">Custom Artwork</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card5.li2">Nature Themes</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card5.li3">Modern Designs</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card5.li4">Personalized Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card5.li5">Decorative Walls</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Event & Exhibition Graphics -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/WallWrap/Event & Exhibition Graphics.jpg" alt="Event &amp; Exhibition Graphics" />
+                        <div class="op-product-badge ww-badge-tertiary" data-i18n="ww.card6.badge">Events</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="ww.card6.title">Event &amp; Exhibition Graphics</h3>
+                        <p data-i18n="ww.card6.desc">Create memorable event spaces using professional wall graphics and branded displays.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card6.li1">Exhibition Graphics</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card6.li2">Event Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card6.li3">Backdrop Walls</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card6.li4">Promotional Displays</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="ww.card6.li5">Temporary Installations</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE WALL WRAPS ========== -->
+    <section class="ww-why">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag ww-section-tag" data-i18n="ww.why.tag">Why Wall Wraps</span>
+                <h2 class="op-section-heading" data-i18n="ww.why.heading">Why Choose Wall Wraps?</h2>
+            </div>
+            <div class="ww-why-grid">
+
+                <div class="ww-why-card">
+                    <div class="ww-why-icon">
+                        <span class="material-icons">auto_awesome</span>
+                    </div>
+                    <h3 data-i18n="ww.why.c1.title">Transforms Empty Spaces</h3>
+                    <p data-i18n="ww.why.c1.desc">Turn blank walls into beautiful displays that make your space feel completely different from before.</p>
+                </div>
+
+                <div class="ww-why-card">
+                    <div class="ww-why-icon">
+                        <span class="material-icons">palette</span>
+                    </div>
+                    <h3 data-i18n="ww.why.c2.title">Custom Design Options</h3>
+                    <p data-i18n="ww.why.c2.desc">Every design is created for you personally — your colors, your logo, your ideas, your space.</p>
+                </div>
+
+                <div class="ww-why-card">
+                    <div class="ww-why-icon">
+                        <span class="material-icons">star</span>
+                    </div>
+                    <h3 data-i18n="ww.why.c3.title">Professional Appearance</h3>
+                    <p data-i18n="ww.why.c3.desc">Give your office, shop, or school a polished, professional look that makes a great first impression.</p>
+                </div>
+
+                <div class="ww-why-card">
+                    <div class="ww-why-icon">
+                        <span class="material-icons">shield</span>
+                    </div>
+                    <h3 data-i18n="ww.why.c4.title">Durable Materials</h3>
+                    <p data-i18n="ww.why.c4.desc">We use high-quality materials that stay looking great for years, even with regular use.</p>
+                </div>
+
+                <div class="ww-why-card">
+                    <div class="ww-why-icon">
+                        <span class="material-icons">cleaning_services</span>
+                    </div>
+                    <h3 data-i18n="ww.why.c5.title">Easy Maintenance</h3>
+                    <p data-i18n="ww.why.c5.desc">Wall graphics are easy to clean and maintain. They look fresh and bright without any special care.</p>
+                </div>
+
+                <div class="ww-why-card">
+                    <div class="ww-why-icon">
+                        <span class="material-icons">psychology</span>
+                    </div>
+                    <h3 data-i18n="ww.why.c6.title">Creates Lasting Impressions</h3>
+                    <p data-i18n="ww.why.c6.desc">Make your space memorable. Visitors and customers will remember your space long after they leave.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROCESS SECTION ========== -->
+    <section class="ww-process">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="ww-section-tag-light" data-i18n="ww.process.tag">How It Works</span>
+                <h2 class="op-section-heading op-section-heading--light" data-i18n="ww.process.heading">How We Transform Your Space</h2>
+            </div>
+            <div class="ww-process-steps">
+
+                <div class="ww-process-step">
+                    <div class="ww-step-number">01</div>
+                    <div class="ww-step-icon">
+                        <span class="material-icons">record_voice_over</span>
+                    </div>
+                    <h3 data-i18n="ww.process.s1.title">Understand Your Requirement</h3>
+                    <p data-i18n="ww.process.s1.desc">Tell us about your space, what you want to show, and the look you have in mind. We'll listen carefully and understand exactly what you need.</p>
+                </div>
+
+                <div class="ww-process-connector"></div>
+
+                <div class="ww-process-step">
+                    <div class="ww-step-number">02</div>
+                    <div class="ww-step-icon">
+                        <span class="material-icons">draw</span>
+                    </div>
+                    <h3 data-i18n="ww.process.s2.title">Create Design Concepts</h3>
+                    <p data-i18n="ww.process.s2.desc">Our design team creates beautiful concepts for your walls. We'll show you how your space will look before we start printing.</p>
+                </div>
+
+                <div class="ww-process-connector"></div>
+
+                <div class="ww-process-step">
+                    <div class="ww-step-number">03</div>
+                    <div class="ww-step-icon">
+                        <span class="material-icons">print</span>
+                    </div>
+                    <h3 data-i18n="ww.process.s3.title">Print &amp; Prepare Graphics</h3>
+                    <p data-i18n="ww.process.s3.desc">Once you approve the design, we print your wall graphics using high-quality materials to ensure the best possible results.</p>
+                </div>
+
+                <div class="ww-process-connector"></div>
+
+                <div class="ww-process-step">
+                    <div class="ww-step-number">04</div>
+                    <div class="ww-step-icon">
+                        <span class="material-icons">home_repair_service</span>
+                    </div>
+                    <h3 data-i18n="ww.process.s4.title">Professional Installation</h3>
+                    <p data-i18n="ww.process.s4.desc">Our trained team carefully installs the wall graphics at your location so everything looks perfect and lasts long.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CALL TO ACTION ========== -->
+    <section class="op-cta ww-cta-section" id="ww-quote">
+        <div class="op-cta-bg"
+            style="background-image: url('../assets/img/WallWrap/wall_wrap_hero_bg.jpg');"></div>
+        <div class="op-cta-overlay ww-cta-overlay"></div>
+        <div class="op-container op-cta-inner">
+            <div class="op-cta-text">
+                <h2 data-i18n="ww.cta.heading">Ready to Give Your Walls a New Look?</h2>
+                <p data-i18n="ww.cta.para">Let's create wall graphics that make your space more attractive, professional, and memorable.</p>
+            </div>
+            <div class="op-cta-btns">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com"
+                    target="_blank" rel="noopener noreferrer"
+                    class="btn-primary ww-btn-primary">
+                    <i class="fas fa-envelope"></i> <span data-i18n="ww.cta.btn.mail">Contact Us</span>
+                </a>
+                <a href="tel:9415277666" class="email-btn">
+                    <i class="fas fa-phone"></i>
+                    <span data-i18n="ww.cta.btn.call">Call Us</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" id="footer">
+        <div class="footer-main">
+            <div class="footer-grid">
+
+                <div class="footer-col footer-col--brand">
+                    <a href="../index.html#home" class="footer-logo-link" tabindex="-1">
+                        <img src="../assets/img/eng_logo.png" id="footerLogo" alt="Jyoti Press Logo" class="footer-logo-img"
+                            draggable="false" />
+                    </a>
+                    <p class="footer-brand-desc" data-i18n="footer.brand.desc">Helping businesses, schools, and organisations with trusted printing
+                        and advertising services since 1965.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ql.heading">Quick Links</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="../index.html#home" data-i18n="footer.ql.home">Home</a></li>
+                        <li><a href="../index.html#about" data-i18n="footer.ql.about">About Us</a></li>
+                        <li><a href="../index.html#why-us" data-i18n="footer.ql.whyus">Why Choose Us</a></li>
+                        <li><a href="../index.html#services" data-i18n="footer.ql.services">Our Services</a></li>
+                        <li><a href="contact.html" data-i18n="footer.ql.contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.sv.heading">Services</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="services.html#offset-printing" data-i18n="footer.sv.offset">Offset Printing</a></li>
+                        <li><a href="digitalPrinting.html" data-i18n="footer.sv.digital">Digital Printing</a></li>
+                        <li><a href="ScreenPrinting.html" data-i18n="footer.sv.screen">Screen Printing</a></li>
+                        <li><a href="FlexPrinting.html" data-i18n="footer.sv.flex">Flex Printing</a></li>
+                        <li><a href="Hoarding.html" data-i18n="footer.sv.hoarding">Hoarding</a></li>
+                        <li><a href="outdoorAdvertising.html" data-i18n="footer.sv.outdoor">Outdoor Advertising</a></li>
+                        <li><a href="wallWrap.html" data-i18n="footer.sv.wallwrap">Wall Wrap</a></li>
+                        <li><a href="wallPainting.html" data-i18n="footer.sv.wallpaint">Wall Painting</a></li>
+                        <li><a href="event.html" data-i18n="footer.sv.events">Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ct.heading">Get In Touch</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span data-i18n-html="footer.ct.address">10 Park Road, Civil Lines,<br>Gorakhpur &mdash; 273009</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com"
+                                target="_blank" rel="noopener noreferrer">
+                                jyotipress009@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:9415277666">94152 77666</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <span class="footer-copy" data-i18n="footer.copy">&copy; 2026 Jyoti Press. Serving Gorakhpur Since 1965.</span>
+                <div class="footer-bottom-links">
+                    <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+                    <span class="footer-bottom-sep" aria-hidden="true">|</span>
+                    <a href="#" data-i18n="footer.terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/language.js"></script>
+    <script src="../js/translation/wallWrap.js"></script>
+    <script src="../js/services.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="oa.page.title">Outdoor Advertising – Jyoti Press</title>
+    <link rel="stylesheet" href="../css/outdoorAdvertising.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">
+                <img src="../assets/img/eng_logo.png" id="siteLogo" alt="Jyoti Press"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+                <span class="logo-fallback">Jyoti Press</span>
+            </a>
+            <nav class="nav-links">
+                <a href="../index.html" data-i18n="services.nav.home">Home</a>
+                <a href="../index.html#about" data-i18n="nav.about">About us</a>
+                <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+                <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="lang-btn language-btn" data-i18n="lang.btn">EN / HI</button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="../index.html" data-i18n="services.nav.home">Home</a>
+            <a href="../index.html#about" data-i18n="nav.about">About us</a>
+            <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+            <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- ========== SERVICE CATEGORIES BAR ========== -->
+    <section class="cat-bar" id="catBar">
+        <div class="cat-track" id="catTrack">
+            <button class="cat-item" data-target="offset-section">
+                <span class="material-icons">print</span>
+                <span class="cat-label" data-i18n="sv.cat.offset">Offset Printing</span>
+            </button>
+            <button class="cat-item" data-target="digital-section">
+                <span class="material-icons">settings_input_component</span>
+                <span class="cat-label" data-i18n="sv.cat.digital">Digital Printing</span>
+            </button>
+            <button class="cat-item" data-target="screen-section">
+                <span class="material-icons">format_paint</span>
+                <span class="cat-label" data-i18n="sv.cat.screen">Screen Printing</span>
+            </button>
+            <button class="cat-item" data-target="flex-section">
+                <span class="material-icons">layers</span>
+                <span class="cat-label" data-i18n="sv.cat.flex">Flex Printing</span>
+            </button>
+            <button class="cat-item" data-target="hoarding-section">
+                <span class="material-icons">view_quilt</span>
+                <span class="cat-label" data-i18n="sv.cat.hoarding">Hoarding</span>
+            </button>
+            <button class="cat-item active" data-target="outdoor-advertising">
+                <span class="material-icons">campaign</span>
+                <span class="cat-label" data-i18n="sv.cat.outdoor">Outdoor Advertising</span>
+            </button>
+            <button class="cat-item" data-target="wall-wrap">
+                <span class="material-icons">wallpaper</span>
+                <span class="cat-label" data-i18n="sv.cat.wallwrap">Wall Wrap</span>
+            </button>
+            <button class="cat-item" data-target="wall-painting">
+                <span class="material-icons">brush</span>
+                <span class="cat-label" data-i18n="sv.cat.wallpaint">Wall Painting</span>
+            </button>
+            <button class="cat-item" data-target="events">
+                <span class="material-icons">event</span>
+                <span class="cat-label" data-i18n="sv.cat.events">Events</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ========== HERO ========== -->
+    <section class="op-hero" id="outdoor-advertising">
+        <div class="op-hero-bg"
+            style="background-image: url('../assets/img/outdoorAdvertising/outdoor_advertising_hero_bg.jpg');"></div>
+        <div class="op-hero-overlay oa-overlay"></div>
+        <div class="op-hero-content">
+            <p class="op-eyebrow" data-i18n="oa.hero.eyebrow">OUTDOOR BRAND PROMOTION</p>
+            <h1 class="op-heading" data-i18n-html="oa.hero.heading">Promote Your Business<br />Where People See It Every Day</h1>
+            <p class="op-sub" data-i18n="oa.hero.sub">Reach more customers through outdoor advertising that helps your business stay visible in busy areas, markets, roads, and public places. A great way to spread your message and grow brand awareness.</p>
+            <div class="op-hero-btns">
+                <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="btn-outline">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span data-i18n="oa.hero.btn.wa">Chat on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES / WHAT WE OFFER ========== -->
+    <section class="op-products oa-products-bg">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag oa-section-tag" data-i18n="oa.products.tag">What We Offer</span>
+                <h2 class="op-section-heading" data-i18n-html="oa.products.heading">Outdoor Advertising<br />That Reaches More People</h2>
+                <p class="op-section-sub" data-i18n="oa.products.sub">Get your business in front of thousands of people with outdoor advertising solutions designed for visibility and impact.</p>
+            </div>
+
+            <div class="op-product-grid">
+
+                <!-- Card 1: Roadside Advertising -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/Outdoor Advertising.jpg" alt="Roadside Advertising" />
+                        <div class="op-product-badge oa-badge-primary" data-i18n="oa.card1.badge">Popular</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="oa.card1.title">Roadside Advertising</h3>
+                        <p data-i18n="oa.card1.desc">Promote your business in busy locations where people see your message every day.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card1.li1">Roadside Displays</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card1.li2">Street Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card1.li3">Market Promotions</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card1.li4">Local Campaigns</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card1.li5">Business Visibility</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 2: Hoarding Campaigns -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/Hoarding.jpg" alt="Hoarding Campaigns" />
+                        <div class="op-product-badge oa-badge-secondary" data-i18n="oa.card2.badge">High Reach</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="oa.card2.title">Hoarding Campaigns</h3>
+                        <p data-i18n="oa.card2.desc">Large outdoor displays that help businesses build awareness and attract attention.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card2.li1">Brand Awareness</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card2.li2">Roadside Hoardings</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card2.li3">High Visibility Locations</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card2.li4">Long-Term Exposure</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card2.li5">Business Promotions</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 3: Business Signage -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/FlexPrinting/Business Signage.jpg" alt="Business Signage" />
+                        <div class="op-product-badge oa-badge-tertiary" data-i18n="oa.card3.badge">Business Growth</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="oa.card3.title">Business Signage</h3>
+                        <p data-i18n="oa.card3.desc">Help customers find and remember your business with clear and attractive signage.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card3.li1">Shop Sign Boards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card3.li2">Business Displays</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card3.li3">Direction Boards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card3.li4">Brand Signage</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card3.li5">Store Visibility</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 4: Retail Advertising -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/FlexPrinting/Retail Branding.jpg" alt="Retail Advertising" />
+                        <div class="op-product-badge oa-badge-primary" data-i18n="oa.card4.badge">Retail</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="oa.card4.title">Retail Advertising</h3>
+                        <p data-i18n="oa.card4.desc">Promote offers, sales, and seasonal campaigns to attract more customers.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card4.li1">Store Promotions</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card4.li2">Festival Campaigns</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card4.li3">Special Offers</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card4.li4">Seasonal Sales</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card4.li5">Retail Branding</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 5: Event Promotions -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/FlexPrinting/Event Branding.jpg" alt="Event Promotions" />
+                        <div class="op-product-badge oa-badge-secondary" data-i18n="oa.card5.badge">Events</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="oa.card5.title">Event Promotions</h3>
+                        <p data-i18n="oa.card5.desc">Increase awareness and attendance for public events and special programs.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card5.li1">Event Advertising</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card5.li2">Festival Promotion</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card5.li3">Exhibition Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card5.li4">Sports Events</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card5.li5">Trade Shows</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 6: Public Campaigns -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/FlexPrinting/Promotional Banners.jpg" alt="Public Campaigns" />
+                        <div class="op-product-badge oa-badge-tertiary" data-i18n="oa.card6.badge">Campaigns</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="oa.card6.title">Public Campaigns</h3>
+                        <p data-i18n="oa.card6.desc">Spread awareness and communicate important messages to a wider audience.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card6.li1">Awareness Drives</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card6.li2">Community Campaigns</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card6.li3">Brand Promotions</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card6.li4">Public Messaging</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="oa.card6.li5">Outdoor Campaigns</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE OUTDOOR ADVERTISING ========== -->
+    <section class="oa-why">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag oa-section-tag" data-i18n="oa.why.tag">Why Choose Us</span>
+                <h2 class="op-section-heading" data-i18n="oa.why.heading">Why Choose Outdoor Advertising?</h2>
+            </div>
+
+            <div class="oa-why-grid">
+
+                <div class="oa-why-card">
+                    <div class="oa-why-icon">
+                        <span class="material-icons">groups</span>
+                    </div>
+                    <h3 data-i18n="oa.why.c1.title">Reach Thousands Daily</h3>
+                    <p data-i18n="oa.why.c1.desc">Your message goes out to hundreds and thousands of people every single day without any extra effort from you.</p>
+                </div>
+
+                <div class="oa-why-card">
+                    <div class="oa-why-icon">
+                        <span class="material-icons">location_on</span>
+                    </div>
+                    <h3 data-i18n="oa.why.c2.title">Strong Local Visibility</h3>
+                    <p data-i18n="oa.why.c2.desc">Stay visible in your local area so that people nearby always know where to find you and what you offer.</p>
+                </div>
+
+                <div class="oa-why-card">
+                    <div class="oa-why-icon">
+                        <span class="material-icons">star</span>
+                    </div>
+                    <h3 data-i18n="oa.why.c3.title">Build Brand Awareness</h3>
+                    <p data-i18n="oa.why.c3.desc">Repeated outdoor exposure helps people remember your business name, logo, and message over time.</p>
+                </div>
+
+                <div class="oa-why-card">
+                    <div class="oa-why-icon">
+                        <span class="material-icons">schedule</span>
+                    </div>
+                    <h3 data-i18n="oa.why.c4.title">24/7 Promotion</h3>
+                    <p data-i18n="oa.why.c4.desc">Outdoor advertising works around the clock. Morning, evening, or night — your message is always out there.</p>
+                </div>
+
+                <div class="oa-why-card">
+                    <div class="oa-why-icon">
+                        <span class="material-icons">public</span>
+                    </div>
+                    <h3 data-i18n="oa.why.c5.title">Wide Audience Reach</h3>
+                    <p data-i18n="oa.why.c5.desc">Reach different types of people — shoppers, commuters, students, families — all in one campaign.</p>
+                </div>
+
+                <div class="oa-why-card">
+                    <div class="oa-why-icon">
+                        <span class="material-icons">savings</span>
+                    </div>
+                    <h3 data-i18n="oa.why.c6.title">Cost Effective Marketing</h3>
+                    <p data-i18n="oa.why.c6.desc">Get great results without spending a lot. Outdoor advertising gives you strong value for every rupee spent.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROCESS ========== -->
+    <section class="oa-process">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="oa-section-tag-light" data-i18n="oa.process.tag">How It Works</span>
+                <h2 class="op-section-heading op-section-heading--light" data-i18n="oa.process.heading">How We Help You Advertise</h2>
+            </div>
+
+            <div class="oa-process-steps">
+
+                <div class="oa-process-step">
+                    <div class="oa-step-number">01</div>
+                    <div class="oa-step-icon">
+                        <span class="material-icons">record_voice_over</span>
+                    </div>
+                    <h3 data-i18n="oa.process.s1.title">Understand Your Goal</h3>
+                    <p data-i18n="oa.process.s1.desc">Tell us what you want to promote and who you want to reach. We'll listen and build the right plan for your business.</p>
+                </div>
+
+                <div class="oa-process-connector"></div>
+
+                <div class="oa-process-step">
+                    <div class="oa-step-number">02</div>
+                    <div class="oa-step-icon">
+                        <span class="material-icons">map</span>
+                    </div>
+                    <h3 data-i18n="oa.process.s2.title">Choose the Best Locations</h3>
+                    <p data-i18n="oa.process.s2.desc">We help you pick busy roads, markets, and public spots where your advertisement will get the most attention.</p>
+                </div>
+
+                <div class="oa-process-connector"></div>
+
+                <div class="oa-process-step">
+                    <div class="oa-step-number">03</div>
+                    <div class="oa-step-icon">
+                        <span class="material-icons">draw</span>
+                    </div>
+                    <h3 data-i18n="oa.process.s3.title">Design &amp; Setup</h3>
+                    <p data-i18n="oa.process.s3.desc">We create a clean, bold design and get everything ready. Your advertisement is checked and set up professionally.</p>
+                </div>
+
+                <div class="oa-process-connector"></div>
+
+                <div class="oa-process-step">
+                    <div class="oa-step-number">04</div>
+                    <div class="oa-step-icon">
+                        <span class="material-icons">rocket_launch</span>
+                    </div>
+                    <h3 data-i18n="oa.process.s4.title">Launch Your Campaign</h3>
+                    <p data-i18n="oa.process.s4.desc">Your outdoor advertising goes live and starts reaching people immediately. From day one, your brand is visible everywhere.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CALL TO ACTION ========== -->
+    <section class="op-cta oa-cta-section" id="oa-quote">
+        <div class="op-cta-bg"
+            style="background-image: url('../assets/img/Outdoor Advertising.jpg');"></div>
+        <div class="op-cta-overlay oa-cta-overlay"></div>
+        <div class="op-container op-cta-inner">
+            <div class="op-cta-text">
+                <h2 data-i18n="oa.cta.heading">Ready to Get More People Talking About Your Business?</h2>
+                <p data-i18n="oa.cta.para">Let's help your brand stand out with outdoor advertising that people notice every day.</p>
+            </div>
+            <div class="op-cta-btns">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com"
+                    target="_blank" rel="noopener noreferrer"
+                    class="btn-primary oa-btn-primary">
+                    <i class="fas fa-envelope"></i> <span data-i18n="oa.cta.btn.contact">Contact Us</span>
+                </a>
+                <a href="tel:9415277666" class="email-btn">
+                    <i class="fas fa-phone"></i>
+                    <span data-i18n="oa.cta.btn.call">Call Us</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" id="footer">
+        <div class="footer-main">
+            <div class="footer-grid">
+
+                <div class="footer-col footer-col--brand">
+                    <a href="../index.html#home" class="footer-logo-link" tabindex="-1">
+                        <img src="../assets/img/eng_logo.png" id="footerLogo" alt="Jyoti Press Logo" class="footer-logo-img"
+                            draggable="false" />
+                    </a>
+                    <p class="footer-brand-desc" data-i18n="footer.brand.desc">Helping businesses, schools, and organisations with trusted printing
+                        and advertising services since 1965.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ql.heading">Quick Links</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="../index.html#home" data-i18n="footer.ql.home">Home</a></li>
+                        <li><a href="../index.html#about" data-i18n="footer.ql.about">About Us</a></li>
+                        <li><a href="../index.html#why-us" data-i18n="footer.ql.whyus">Why Choose Us</a></li>
+                        <li><a href="../index.html#services" data-i18n="footer.ql.services">Our Services</a></li>
+                        <li><a href="contact.html" data-i18n="footer.ql.contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.sv.heading">Services</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="services.html#offset-printing" data-i18n="footer.sv.offset">Offset Printing</a></li>
+                        <li><a href="digitalPrinting.html" data-i18n="footer.sv.digital">Digital Printing</a></li>
+                        <li><a href="ScreenPrinting.html" data-i18n="footer.sv.screen">Screen Printing</a></li>
+                        <li><a href="FlexPrinting.html" data-i18n="footer.sv.flex">Flex Printing</a></li>
+                        <li><a href="Hoarding.html" data-i18n="footer.sv.hoarding">Hoarding</a></li>
+                        <li><a href="outdoorAdvertising.html" data-i18n="footer.sv.outdoor">Outdoor Advertising</a></li>
+                        <li><a href="wallWrap.html" data-i18n="footer.sv.wallwrap">Wall Wrap</a></li>
+                        <li><a href="wallPainting.html" data-i18n="footer.sv.wallpaint">Wall Painting</a></li>
+                        <li><a href="event.html" data-i18n="footer.sv.events">Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ct.heading">Get In Touch</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span data-i18n-html="footer.ct.address">10 Park Road, Civil Lines,<br>Gorakhpur &mdash; 273009</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com"
+                                target="_blank" rel="noopener noreferrer">
+                                jyotipress009@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:9415277666">94152 77666</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <span class="footer-copy" data-i18n="footer.copy">&copy; 2026 Jyoti Press. Serving Gorakhpur Since 1965.</span>
+                <div class="footer-bottom-links">
+                    <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+                    <span class="footer-bottom-sep" aria-hidden="true">|</span>
+                    <a href="#" data-i18n="footer.terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/language.js"></script>
+    <script src="../js/translation/outdoorAdvertising.js"></script>
+    <script src="../js/services.js"></script>
+</body>
+
+</html>

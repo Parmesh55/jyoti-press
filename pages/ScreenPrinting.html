@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="sp.page.title">Screen Printing – Jyoti Press</title>
+    <link rel="stylesheet" href="../css/ScreenPrinting.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">
+                <img src="../assets/img/eng_logo.png" id="siteLogo" alt="Jyoti Press"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+                <span class="logo-fallback">Jyoti Press</span>
+            </a>
+            <nav class="nav-links">
+                <a href="../index.html" data-i18n="services.nav.home">Home</a>
+                <a href="../index.html#about" data-i18n="nav.about">About us</a>
+                <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+                <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="lang-btn language-btn" data-i18n="lang.btn">EN / HI</button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="../index.html" data-i18n="services.nav.home">Home</a>
+            <a href="../index.html#about" data-i18n="nav.about">About us</a>
+            <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+            <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- ========== SERVICE CATEGORIES BAR ========== -->
+    <section class="cat-bar" id="catBar">
+        <div class="cat-track" id="catTrack">
+            <button class="cat-item" data-target="offset-section">
+                <span class="material-icons">print</span>
+                <span class="cat-label" data-i18n="sv.cat.offset">Offset Printing</span>
+            </button>
+            <button class="cat-item" data-target="digital-section">
+                <span class="material-icons">settings_input_component</span>
+                <span class="cat-label" data-i18n="sv.cat.digital">Digital Printing</span>
+            </button>
+            <button class="cat-item active" data-target="screen-section">
+                <span class="material-icons">format_paint</span>
+                <span class="cat-label" data-i18n="sv.cat.screen">Screen Printing</span>
+            </button>
+            <button class="cat-item" data-target="flex-printing">
+                <span class="material-icons">layers</span>
+                <span class="cat-label" data-i18n="sv.cat.flex">Flex Printing</span>
+            </button>
+            <button class="cat-item" data-target="hoarding">
+                <span class="material-icons">view_quilt</span>
+                <span class="cat-label" data-i18n="sv.cat.hoarding">Hoarding</span>
+            </button>
+            <button class="cat-item" data-target="outdoor-advertising">
+                <span class="material-icons">campaign</span>
+                <span class="cat-label" data-i18n="sv.cat.outdoor">Outdoor Advertising</span>
+            </button>
+            <button class="cat-item" data-target="wall-wrap">
+                <span class="material-icons">wallpaper</span>
+                <span class="cat-label" data-i18n="sv.cat.wallwrap">Wall Wrap</span>
+            </button>
+            <button class="cat-item" data-target="wall-painting">
+                <span class="material-icons">brush</span>
+                <span class="cat-label" data-i18n="sv.cat.wallpaint">Wall Painting</span>
+            </button>
+            <button class="cat-item" data-target="events">
+                <span class="material-icons">event</span>
+                <span class="cat-label" data-i18n="sv.cat.events">Events</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ========== SCREEN PRINTING — HERO ========== -->
+    <section class="op-hero" id="screen-section">
+        <div class="op-hero-bg"
+            style="background-image: url('../assets/img/ScreenPrinting/Screen_Printing_hero_bg.jpg');"></div>
+        <div class="op-hero-overlay sp-overlay"></div>
+        <div class="op-hero-content">
+            <p class="op-eyebrow" data-i18n="sp.hero.eyebrow">SCREEN PRINTING EXPERTS</p>
+            <h1 class="op-heading" data-i18n-html="sp.hero.heading">Print Your Logo on T-Shirts,<br />Bags &amp; More</h1>
+            <p class="op-sub" data-i18n="sp.hero.sub">Need printed t-shirts for your school, office, event, or campaign? Screen printing is the best way to get bright, long-lasting prints on cloth. The colours stay bold even after many washes. Great for schools, sports teams, companies, NGOs, and events.</p>
+            <div class="op-hero-btns">
+                <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="btn-outline">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span data-i18n="sp.hero.btn.wa">Chat on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRODUCT SHOWCASE ========== -->
+    <section class="op-products sp-products-bg">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag sp-section-tag" data-i18n="sp.products.tag">What We Print On</span>
+                <h2 class="op-section-heading" data-i18n-html="sp.products.heading">T-Shirts, Bags, Caps &amp; Much More</h2>
+                <p class="op-section-sub" data-i18n="sp.products.sub">We print your logo or design on cloth items for schools, offices, events, and teams. Durable prints that look great and last long.</p>
+            </div>
+
+            <div class="op-product-grid">
+
+                <!-- Apparel Printing -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/ScreenPrinting/Apparel Printing.jpg" alt="Apparel Printing" />
+                        <div class="op-product-badge sp-badge-primary" data-i18n="sp.card1.badge">Most Popular</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n-html="sp.card1.title">T-Shirts &amp; Apparel</h3>
+                        <p data-i18n="sp.card1.desc">Print your logo, name, or design on t-shirts, polos, and sportswear. Ideal for schools, teams, and companies.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card1.li1">T-Shirts</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card1.li2">Polo T-Shirts</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card1.li3">Hoodies</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card1.li4">Sports Jerseys</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card1.li5">Sweatshirts</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Corporate Branding -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/ScreenPrinting/Corporate Branding.jpg" alt="Corporate Branding" />
+                        <div class="op-product-badge sp-badge-secondary" data-i18n="sp.card2.badge">Professional</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n-html="sp.card2.title">Office &amp; Staff Uniforms</h3>
+                        <p data-i18n="sp.card2.desc">Get your company name or logo printed on staff uniforms. Makes your team look organised and professional.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card2.li1">Staff Uniforms</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card2.li2">Corporate T-Shirts</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card2.li3">Workwear Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card2.li4">Event Apparel</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card2.li5">Company Uniforms</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Promotional Merchandise -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/ScreenPrinting/Promotional Merchandise.jpg"
+                            alt="Promotional Merchandise" />
+                        <div class="op-product-badge sp-badge-tertiary" data-i18n="sp.card3.badge">Marketing</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n-html="sp.card3.title">Bags, Caps &amp; Giveaways</h3>
+                        <p data-i18n="sp.card3.desc">Tote bags, cotton bags, and caps with your name or logo printed on them. Perfect for events, promotions, and giveaways.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card3.li1">Tote Bags</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card3.li2">Cotton Bags</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card3.li3">Caps</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card3.li4">Promotional Giveaways</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card3.li5">Shop Display Items</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Educational Merchandise -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/ScreenPrinting/College Event Merchandise.jpg"
+                            alt="Educational Merchandise" />
+                        <div class="op-product-badge sp-badge-secondary" data-i18n="sp.card4.badge">Education</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n-html="sp.card4.title">School &amp; College T-Shirts</h3>
+                        <p data-i18n="sp.card4.desc">House t-shirts, college fest clothing, club apparel — we print custom items for schools, colleges, and student events.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card4.li1">School House T-Shirts</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card4.li2">College Fest T-Shirts</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card4.li3">Club Apparel</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card4.li4">Student Events</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card4.li5">Campus Branding</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Event & Campaign Printing -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/ScreenPrinting/Event & Campaign Printing.jpg"
+                            alt="Event & Campaign Printing" />
+                        <div class="op-product-badge sp-badge-tertiary" data-i18n="sp.card5.badge">Campaign</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n-html="sp.card5.title">Event &amp; Campaign T-Shirts</h3>
+                        <p data-i18n="sp.card5.desc">Organising an event, rally, or awareness drive? We print matching t-shirts and volunteer uniforms for your whole team.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card5.li1">Event T-Shirts</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card5.li2">Political Campaign Apparel</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card5.li3">NGO Campaign T-Shirts</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card5.li4">Awareness Programs</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card5.li5">Volunteer Uniforms</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Custom Fabric Printing -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/ScreenPrinting/Custom Fabric Printing.jpg"
+                            alt="Custom Fabric Printing" />
+                        <div class="op-product-badge sp-badge-primary" data-i18n="sp.card6.badge">Custom</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="sp.card6.title">Custom Cloth Printing</h3>
+                        <p data-i18n="sp.card6.desc">Need your own logo or design printed on fabric in bulk? We handle custom orders with multiple colours and any design you bring.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card6.li1">Bulk Fabric Printing</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card6.li2">Custom Logos</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card6.li3">Multi-Colour Designs</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card6.li4">Textile Branding</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sp.card6.li5">Special Orders</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE SCREEN PRINTING ========== -->
+    <section class="sp-why">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag sp-section-tag" data-i18n="sp.why.tag">Why Screen Printing</span>
+                <h2 class="op-section-heading" data-i18n="sp.why.heading">Why Screen Printing is a Good Choice</h2>
+            </div>
+            <div class="sp-why-grid">
+
+                <div class="sp-why-card">
+                    <div class="sp-why-icon">
+                        <span class="material-icons">palette</span>
+                    </div>
+                    <h3 data-i18n="sp.why.c1.title">Bright, Bold Colours</h3>
+                    <p data-i18n="sp.why.c1.desc">The colours are rich and vivid. Your logo or design stands out clearly on any garment.</p>
+                </div>
+
+                <div class="sp-why-card">
+                    <div class="sp-why-icon">
+                        <span class="material-icons">verified</span>
+                    </div>
+                    <h3 data-i18n="sp.why.c2.title">Lasts for Years</h3>
+                    <p data-i18n="sp.why.c2.desc">Screen printed designs stay sharp even after hundreds of washes. The print doesn't peel or fade easily.</p>
+                </div>
+
+                <div class="sp-why-card">
+                    <div class="sp-why-icon">
+                        <span class="material-icons">savings</span>
+                    </div>
+                    <h3 data-i18n="sp.why.c3.title">Cheaper for Bulk Orders</h3>
+                    <p data-i18n="sp.why.c3.desc">The more you order, the less it costs per piece. Great for schools, companies, and event teams.</p>
+                </div>
+
+                <div class="sp-why-card">
+                    <div class="sp-why-icon">
+                        <span class="material-icons">dry_cleaning</span>
+                    </div>
+                    <h3 data-i18n="sp.why.c4.title">Comfortable to Wear</h3>
+                    <p data-i18n="sp.why.c4.desc">The print feels soft on the fabric. There's no stiffness or cracking — it stays comfortable to wear.</p>
+                </div>
+
+                <div class="sp-why-card">
+                    <div class="sp-why-icon">
+                        <span class="material-icons">design_services</span>
+                    </div>
+                    <h3 data-i18n="sp.why.c5.title">Any Design You Like</h3>
+                    <p data-i18n="sp.why.c5.desc">Simple logo or detailed multi-colour artwork — we print it exactly the way you want it.</p>
+                </div>
+
+                <div class="sp-why-card">
+                    <div class="sp-why-icon">
+                        <span class="material-icons">speed</span>
+                    </div>
+                    <h3 data-i18n="sp.why.c6.title">Orders Ready on Time</h3>
+                    <p data-i18n="sp.why.c6.desc">We work quickly and make sure your bulk orders are ready before your event or deadline.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROCESS ========== -->
+    <section class="sp-process">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag sp-section-tag-light" data-i18n="sp.process.tag">How It Works</span>
+                <h2 class="op-section-heading op-section-heading--light" data-i18n="sp.process.heading">How We Print Your Order</h2>
+            </div>
+            <div class="sp-process-steps">
+
+                <div class="sp-process-step">
+                    <div class="sp-step-number">01</div>
+                    <div class="sp-step-icon">
+                        <span class="material-icons">draw</span>
+                    </div>
+                    <h3 data-i18n="sp.process.s1.title">You Share Your Design</h3>
+                    <p data-i18n="sp.process.s1.desc">Send us your logo or design. If you don't have one ready, just tell us what you want and we'll help you sort it out.</p>
+                </div>
+
+                <div class="sp-process-connector"></div>
+
+                <div class="sp-process-step">
+                    <div class="sp-step-number">02</div>
+                    <div class="sp-step-icon">
+                        <span class="material-icons">grid_on</span>
+                    </div>
+                    <h3 data-i18n="sp.process.s2.title">We Prepare the Screen</h3>
+                    <p data-i18n="sp.process.s2.desc">We create the printing screen based on your design. Each colour layer gets its own screen so the final result is clean and precise.</p>
+                </div>
+
+                <div class="sp-process-connector"></div>
+
+                <div class="sp-process-step">
+                    <div class="sp-step-number">03</div>
+                    <div class="sp-step-icon">
+                        <span class="material-icons">fact_check</span>
+                    </div>
+                    <h3 data-i18n-html="sp.process.s3.title">Printing &amp; Checking</h3>
+                    <p data-i18n="sp.process.s3.desc">We print your design on the garments and check every piece carefully. If something doesn't look right, we fix it before packing.</p>
+                </div>
+
+                <div class="sp-process-connector"></div>
+
+                <div class="sp-process-step">
+                    <div class="sp-step-number">04</div>
+                    <div class="sp-step-icon">
+                        <span class="material-icons">local_shipping</span>
+                    </div>
+                    <h3 data-i18n="sp.process.s4.title">Ready for Pickup or Delivery</h3>
+                    <p data-i18n="sp.process.s4.desc">Your printed items are packed neatly and ready for you to collect or receive at your door — right on time.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CALL TO ACTION ========== -->
+    <section class="op-cta sp-cta-section" id="sp-quote">
+        <div class="op-cta-bg"
+            style="background-image: url('../assets/img/ScreenPrinting/Screen_Printing_hero_bg.jpg');"></div>
+        <div class="op-cta-overlay sp-cta-overlay"></div>
+        <div class="op-container op-cta-inner">
+            <div class="op-cta-text">
+                <h2 data-i18n="sp.cta.heading">Need Printed T-Shirts or Uniforms?</h2>
+                <p data-i18n="sp.cta.para">Just call us or send a message on WhatsApp. Tell us what you need, how many pieces, and when. We'll take care of everything.</p>
+            </div>
+            <div class="op-cta-btns">
+                <a href="https://wa.me/919415277666" target="_blank" rel="noopener"
+                    class="btn-primary sp-btn-primary op-cta-wa">
+                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="sp.cta.btn.wa">Chat on WhatsApp</span>
+                </a>
+                <a href="tel:9415277666" class="email-btn">
+                    <i class="fas fa-phone"></i>
+                    <span data-i18n="sp.cta.btn.call">Call Us</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" id="footer">
+        <div class="footer-main">
+            <div class="footer-grid">
+
+                <div class="footer-col footer-col--brand">
+                    <a href="../index.html#home" class="footer-logo-link" tabindex="-1">
+                        <img src="../assets/img/eng_logo.png" id="footerLogo" alt="Jyoti Press Logo" class="footer-logo-img"
+                            draggable="false" />
+                    </a>
+                    <p class="footer-brand-desc" data-i18n="footer.brand.desc">Helping businesses, schools, and organisations with trusted printing
+                        and advertising services since 1965.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ql.heading">Quick Links</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="../index.html#home" data-i18n="footer.ql.home">Home</a></li>
+                        <li><a href="../index.html#about" data-i18n="footer.ql.about">About Us</a></li>
+                        <li><a href="../index.html#why-us" data-i18n="footer.ql.whyus">Why Choose Us</a></li>
+                        <li><a href="../index.html#services" data-i18n="footer.ql.services">Our Services</a></li>
+                        <li><a href="contact.html" data-i18n="footer.ql.contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.sv.heading">Services</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="services.html#offset-printing" data-i18n="footer.sv.offset">Offset Printing</a></li>
+                        <li><a href="digitalPrinting.html" data-i18n="footer.sv.digital">Digital Printing</a></li>
+                        <li><a href="ScreenPrinting.html" data-i18n="footer.sv.screen">Screen Printing</a></li>
+                        <li><a href="FlexPrinting.html" data-i18n="footer.sv.flex">Flex Printing</a></li>
+                        <li><a href="Hoarding.html" data-i18n="footer.sv.hoarding">Hoarding</a></li>
+                        <li><a href="OutdoorAdvertising.html" data-i18n="footer.sv.outdoor">Outdoor Advertising</a></li>
+                        <li><a href="WallWrap.html" data-i18n="footer.sv.wallwrap">Wall Wrap</a></li>
+                        <li><a href="WallPainting.html" data-i18n="footer.sv.wallpaint">Wall Painting</a></li>
+                        <li><a href="Event.html" data-i18n="footer.sv.events">Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ct.heading">Get In Touch</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span data-i18n-html="footer.ct.address">10 Park Road, Civil Lines,<br>Gorakhpur &mdash; 273009</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com"
+                                target="_blank" rel="noopener noreferrer">
+                                jyotipress009@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:9415277666">94152 77666</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <span class="footer-copy" data-i18n="footer.copy">&copy; 2026 Jyoti Press. Serving Gorakhpur Since 1965.</span>
+                <div class="footer-bottom-links">
+                    <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+                    <span class="footer-bottom-sep" aria-hidden="true">|</span>
+                    <a href="#" data-i18n="footer.terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/language.js"></script>
+    <script src="../js/translation/ScreenPrinting.js"></script>
+    <script src="../js/services.js"></script>
+</body>
+
+</html>

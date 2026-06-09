@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="dp.page.title">Digital Printing – Jyoti Press</title>
+    <link rel="stylesheet" href="../css/digitalPrinting.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">
+                <img src="../assets/img/eng_logo.png" id="siteLogo" alt="Jyoti Press"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+                <span class="logo-fallback">Jyoti Press</span>
+            </a>
+            <nav class="nav-links">
+                <a href="../index.html" data-i18n="services.nav.home">Home</a>
+                <a href="../index.html#about" data-i18n="nav.about">About us</a>
+                <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+                <!-- <a href="#">Portfolio</a>
+                <a href="#">Clients</a> -->
+                <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="lang-btn language-btn" data-i18n="lang.btn">EN / HI</button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="../index.html" data-i18n="services.nav.home">Home</a>
+            <a href="../index.html#about" data-i18n="nav.about">About us</a>
+            <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+            <!-- <a href="#">Portfolio</a>
+            <a href="#">Clients</a> -->
+            <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- ========== SERVICE CATEGORIES BAR ========== -->
+    <section class="cat-bar" id="catBar">
+        <div class="cat-track" id="catTrack">
+            <button class="cat-item" data-target="offset-section">
+                <span class="material-icons">print</span>
+                <span class="cat-label" data-i18n="sv.cat.offset">Offset Printing</span>
+            </button>
+            <button class="cat-item active" data-target="digital-section">
+                <span class="material-icons">settings_input_component</span>
+                <span class="cat-label" data-i18n="sv.cat.digital">Digital Printing</span>
+            </button>
+            <button class="cat-item" data-target="screen-printing">
+                <span class="material-icons">format_paint</span>
+                <span class="cat-label" data-i18n="sv.cat.screen">Screen Printing</span>
+            </button>
+            <button class="cat-item" data-target="flex-printing">
+                <span class="material-icons">layers</span>
+                <span class="cat-label" data-i18n="sv.cat.flex">Flex Printing</span>
+            </button>
+            <button class="cat-item" data-target="hoarding">
+                <span class="material-icons">view_quilt</span>
+                <span class="cat-label" data-i18n="sv.cat.hoarding">Hoarding</span>
+            </button>
+            <button class="cat-item" data-target="outdoor-advertising">
+                <span class="material-icons">campaign</span>
+                <span class="cat-label" data-i18n="sv.cat.outdoor">Outdoor Advertising</span>
+            </button>
+            <button class="cat-item" data-target="wall-wrap">
+                <span class="material-icons">wallpaper</span>
+                <span class="cat-label" data-i18n="sv.cat.wallwrap">Wall Wrap</span>
+            </button>
+            <button class="cat-item" data-target="wall-painting">
+                <span class="material-icons">brush</span>
+                <span class="cat-label" data-i18n="sv.cat.wallpaint">Wall Painting</span>
+            </button>
+            <button class="cat-item" data-target="events">
+                <span class="material-icons">event</span>
+                <span class="cat-label" data-i18n="sv.cat.events">Events</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ========== DIGITAL PRINTING — HERO ========== -->
+    <section class="op-hero" id="digital-section">
+        <div class="op-hero-bg"
+            style="background-image: url('../assets/img/digitalPrinting/digital_Printing_hero_bg.jpg');"></div>
+        <div class="op-hero-overlay dp-overlay"></div>
+        <div class="op-hero-content">
+            <p class="op-eyebrow" data-i18n="dp.hero.eyebrow">FAST &amp; FLEXIBLE PRINTING</p>
+            <h1 class="op-heading" data-i18n-html="dp.hero.heading">Fast Digital Printing<br />for Your Daily Needs</h1>
+            <p class="op-sub" data-i18n="dp.hero.sub">Need a few copies printed quickly? Digital printing is perfect for small and medium orders. No waiting for days — your prints are ready fast, with sharp colours and a clean finish. Great for shops, schools, events, and personal use.</p>
+            <div class="op-hero-btns">
+                <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="btn-outline">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span data-i18n="dp.hero.btn.wa">Chat on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRODUCT SHOWCASE ========== -->
+    <section class="op-products dp-products-bg">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag" data-i18n="dp.products.tag">What We Print</span>
+                <h2 class="op-section-heading" data-i18n="dp.products.heading">All Kinds of Prints, Ready Quickly</h2>
+                <p class="op-section-sub" data-i18n="dp.products.sub">From visiting cards to event passes — we print what you need, fast and with sharp quality.</p>
+            </div>
+
+            <div class="op-product-grid">
+
+                <!-- Business Essentials -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/digitalPrinting/Business Essentials.jpg" alt="Business Essentials" />
+                        <div class="op-product-badge" data-i18n="dp.card1.badge">Most Popular</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="dp.card1.title">Office Stationery</h3>
+                        <p data-i18n="dp.card1.desc">Need visiting cards, letterheads, or ID cards quickly? We print them fast with a sharp, clean finish.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card1.li1">Visiting Cards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card1.li2">Letterheads</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card1.li3">Envelopes</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card1.li4">ID Cards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card1.li5">Company Profiles</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Marketing Material -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/digitalPrinting/Marketing Material.jpg" alt="Marketing Material" />
+                        <div class="op-product-badge op-product-badge--gold" data-i18n="dp.card2.badge">Popular Choice</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="dp.card2.title">Pamphlets &amp; Flyers</h3>
+                        <p data-i18n="dp.card2.desc">Want to advertise your shop, product, or event? Colourful flyers and brochures that people actually stop to read.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card2.li1">Flyers</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card2.li2">Brochures</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card2.li3">Pamphlets</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card2.li4">Catalogues</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card2.li5">Product Booklets</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Stickers & Labels -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/digitalPrinting/Stickers & Labels.jpg" alt="Stickers and Labels" />
+                        <div class="op-product-badge dp-badge-teal" data-i18n="dp.card3.badge">Custom Sizes</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="dp.card3.title">Stickers &amp; Labels</h3>
+                        <p data-i18n="dp.card3.desc">Perfect for products, packaging, or promotions. We cut them to any size and print them in bright, lasting colours.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card3.li1">Product Labels</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card3.li2">Barcode Labels</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card3.li3">Packaging Labels</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card3.li4">Custom Stickers</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card3.li5">Branding Labels</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Event Printing -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/digitalPrinting/Event Printing.jpg" alt="Event Printing" />
+                        <div class="op-product-badge" data-i18n="dp.card4.badge">Fast Delivery</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="dp.card4.title">Event Printing</h3>
+                        <p data-i18n="dp.card4.desc">Planning a function, ceremony, or celebration? We print invitation cards, entry passes, greeting cards, and more.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card4.li1">Invitation Cards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card4.li2">Event Passes</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card4.li3">Greeting Cards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card4.li4">Tickets</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card4.li5">Certificates</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Training Manuals -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/digitalPrinting/Training Manuals.jpg" alt="Training Manuals" />
+                        <div class="op-product-badge op-product-badge--gold" data-i18n="dp.card5.badge">For Institutions</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="dp.card5.title">School &amp; College Material</h3>
+                        <p data-i18n="dp.card5.desc">Schools, colleges, and training centres can get their study material, prospectuses, and reports printed neatly and affordably.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card5.li1">School Material</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card5.li2">Training Manuals</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card5.li3">Prospectus</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card5.li4">Reports</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card5.li5">Educational Documents</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Photo Prints -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/digitalPrinting/Photo Prints.jpg" alt="Photo Prints" />
+                        <div class="op-product-badge dp-badge-teal" data-i18n="dp.card6.badge">Personal Projects</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="dp.card6.title">Photo Prints</h3>
+                        <p data-i18n="dp.card6.desc">Want your photos printed in true colours? We print photos that look exactly as they should — bright, clear, and beautiful.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card6.li1">Photo Prints</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card6.li2">Posters</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card6.li3">Custom Prints</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card6.li4">Personal Projects</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="dp.card6.li5">Small Batch Orders</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FEATURES STRIP ========== -->
+    <section class="op-benefits dp-features-strip">
+        <div class="op-container">
+            <div class="op-benefits-inner">
+                <div class="op-benefit">
+                    <span class="material-icons">bolt</span>
+                    <div>
+                        <strong data-i18n="dp.feat.c1.title">Ready in Hours</strong>
+                        <span data-i18n="dp.feat.c1.sub">No long waiting — fast turnaround</span>
+                    </div>
+                </div>
+                <div class="op-benefit-sep"></div>
+                <div class="op-benefit">
+                    <span class="material-icons">filter_1</span>
+                    <div>
+                        <strong data-i18n="dp.feat.c2.title">Even One Copy is Fine</strong>
+                        <span data-i18n="dp.feat.c2.sub">No minimum quantity needed</span>
+                    </div>
+                </div>
+                <div class="op-benefit-sep"></div>
+                <div class="op-benefit">
+                    <span class="material-icons">tune</span>
+                    <div>
+                        <strong data-i18n="dp.feat.c3.title">Print What You Want</strong>
+                        <span data-i18n="dp.feat.c3.sub">Any design, any size, personalised</span>
+                    </div>
+                </div>
+                <div class="op-benefit-sep"></div>
+                <div class="op-benefit">
+                    <span class="material-icons">palette</span>
+                    <div>
+                        <strong data-i18n="dp.feat.c4.title">Bright, Clear Colours</strong>
+                        <span data-i18n="dp.feat.c4.sub">Prints that look sharp and fresh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CALL TO ACTION ========== -->
+    <section class="op-cta" id="dp-quote">
+        <div class="op-cta-bg"
+            style="background-image: url('../assets/img/digitalPrinting/digital_Printing_hero_bg.jpg');"></div>
+        <div class="op-cta-overlay dp-cta-overlay"></div>
+        <div class="op-container op-cta-inner">
+            <div class="op-cta-text">
+                <h2 data-i18n="dp.cta.heading">Want Something Printed Quickly?</h2>
+                <p data-i18n="dp.cta.para">Just send us a message or call us. Tell us what you need, and we'll get it printed for you — fast, neatly, and at a fair price.</p>
+            </div>
+            <div class="op-cta-btns">
+                <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="btn-primary op-cta-wa">
+                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="dp.cta.btn.wa">Chat on WhatsApp</span>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com&su=Digital%20Printing%20Inquiry"
+                    class="email-btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-envelope"></i>
+                    <span data-i18n="dp.cta.btn.email">Send an Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" id="footer">
+        <div class="footer-main">
+            <div class="footer-grid">
+
+                <div class="footer-col footer-col--brand">
+                    <a href="../index.html#home" class="footer-logo-link" tabindex="-1">
+                        <img src="../assets/img/eng_logo.png" id="footerLogo" alt="Jyoti Press Logo" class="footer-logo-img"
+                            draggable="false" />
+                    </a>
+                    <p class="footer-brand-desc" data-i18n="footer.brand.desc">Helping businesses, schools, and organisations with trusted printing
+                        and advertising services since 1965.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ql.heading">Quick Links</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="../index.html#home" data-i18n="footer.ql.home">Home</a></li>
+                        <li><a href="../index.html#about" data-i18n="footer.ql.about">About Us</a></li>
+                        <li><a href="../index.html#why-us" data-i18n="footer.ql.whyus">Why Choose Us</a></li>
+                        <li><a href="../index.html#services" data-i18n="footer.ql.services">Our Services</a></li>
+                        <li><a href="contact.html" data-i18n="footer.ql.contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.sv.heading">Services</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="services.html#offset-printing" data-i18n="footer.sv.offset">Offset Printing</a></li>
+                        <li><a href="digitalPrinting.html" data-i18n="footer.sv.digital">Digital Printing</a></li>
+                        <li><a href="ScreenPrinting.html" data-i18n="footer.sv.screen">Screen Printing</a></li>
+                        <li><a href="FlexPrinting.html" data-i18n="footer.sv.flex">Flex Printing</a></li>
+                        <li><a href="Hoarding.html" data-i18n="footer.sv.hoarding">Hoarding</a></li>
+                        <li><a href="OutdoorAdvertising.html" data-i18n="footer.sv.outdoor">Outdoor Advertising</a></li>
+                        <li><a href="WallWrap.html" data-i18n="footer.sv.wallwrap">Wall Wrap</a></li>
+                        <li><a href="WallPainting.html" data-i18n="footer.sv.wallpaint">Wall Painting</a></li>
+                        <li><a href="Event.html" data-i18n="footer.sv.events">Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ct.heading">Get In Touch</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span data-i18n-html="footer.ct.address">10 Park Road, Civil Lines,<br>Gorakhpur &mdash; 273009</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com"
+                                target="_blank" rel="noopener noreferrer">
+                                jyotipress009@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:9415277666">94152 77666</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <span class="footer-copy" data-i18n="footer.copy">&copy; 2026 Jyoti Press. Serving Gorakhpur Since 1965.</span>
+                <div class="footer-bottom-links">
+                    <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+                    <span class="footer-bottom-sep" aria-hidden="true">|</span>
+                    <a href="#" data-i18n="footer.terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/language.js"></script>
+    <script src="../js/translation/digitalPrinting.js"></script>
+    <script src="../js/services.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="sv.page.title">Services – Jyoti Press</title>
+    <link rel="stylesheet" href="../css/services.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">
+                <img src="../assets/img/eng_logo.png" id="siteLogo" alt="Jyoti Press"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+                <span class="logo-fallback">Jyoti Press</span>
+            </a>
+            <nav class="nav-links">
+                <a href="../index.html" data-i18n="services.nav.home">Home</a>
+                <a href="../index.html#about" data-i18n="nav.about">About us</a>
+                <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+                <!-- <a href="#">Portfolio</a>
+                <a href="#">Clients</a> -->
+                <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="lang-btn language-btn" data-i18n="lang.btn">EN / HI</button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="../index.html" data-i18n="services.nav.home">Home</a>
+            <a href="../index.html#about" data-i18n="nav.about">About us</a>
+            <a href="services.html" class="active" data-i18n="services.nav.services">Services</a>
+            <!-- <a href="#">Portfolio</a>
+            <a href="#">Clients</a> -->
+            <a href="contact.html" data-i18n="services.nav.contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- ========== SERVICE CATEGORIES BAR ========== -->
+    <section class="cat-bar" id="catBar">
+        <div class="cat-track" id="catTrack">
+            <button class="cat-item active" data-target="offset-printing">
+                <span class="material-icons">print</span>
+                <span class="cat-label" data-i18n="sv.cat.offset">Offset Printing</span>
+            </button>
+            <button class="cat-item" data-target="digital-printing">
+                <span class="material-icons">settings_input_component</span>
+                <span class="cat-label" data-i18n="sv.cat.digital">Digital Printing</span>
+            </button>
+            <button class="cat-item" data-target="screen-printing">
+                <span class="material-icons">format_paint</span>
+                <span class="cat-label" data-i18n="sv.cat.screen">Screen Printing</span>
+            </button>
+            <button class="cat-item" data-target="flex-printing">
+                <span class="material-icons">layers</span>
+                <span class="cat-label" data-i18n="sv.cat.flex">Flex Printing</span>
+            </button>
+            <button class="cat-item" data-target="hoarding">
+                <span class="material-icons">view_quilt</span>
+                <span class="cat-label" data-i18n="sv.cat.hoarding">Hoarding</span>
+            </button>
+            <button class="cat-item" data-target="outdoor-advertising">
+                <span class="material-icons">campaign</span>
+                <span class="cat-label" data-i18n="sv.cat.outdoor">Outdoor Advertising</span>
+            </button>
+            <button class="cat-item" data-target="wall-wrap">
+                <span class="material-icons">wallpaper</span>
+                <span class="cat-label" data-i18n="sv.cat.wallwrap">Wall Wrap</span>
+            </button>
+            <button class="cat-item" data-target="wall-painting">
+                <span class="material-icons">brush</span>
+                <span class="cat-label" data-i18n="sv.cat.wallpaint">Wall Painting</span>
+            </button>
+            <button class="cat-item" data-target="events">
+                <span class="material-icons">event</span>
+                <span class="cat-label" data-i18n="sv.cat.events">Events</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ========== OFFSET PRINTING — HERO ========== -->
+    <section class="op-hero" id="offset-printing">
+        <div class="op-hero-bg" style="background-image: url('../assets/img/offset/Offset Printing.jpg');"></div>
+        <div class="op-hero-overlay"></div>
+        <div class="op-hero-content">
+            <p class="op-eyebrow" data-i18n="sv.hero.eyebrow">Trusted in Gorakhpur Since 1965</p>
+            <h1 class="op-heading" data-i18n-html="sv.hero.heading">Quality Offset Printing<br />for Every Order, Big or Small</h1>
+            <p class="op-sub" data-i18n="sv.hero.sub">Need visiting cards, bill books, brochures, or books? We print everything neatly, on time, and at a fair price. Just tell us what you need — we'll take care of the rest.</p>
+            <div class="op-hero-btns">
+                <a href="https://wa.me/919415277666" class="btn-outline">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span data-i18n="sv.hero.btn.wa">Chat on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+        <div class="op-hero-stats">
+            <div class="op-stat">
+                <span class="op-stat-num">61+</span>
+                <span class="op-stat-label" data-i18n="sv.stat.years">Years of Experience</span>
+            </div>
+            <div class="op-stat">
+                <span class="op-stat-num">500+</span>
+                <span class="op-stat-label" data-i18n="sv.stat.customers">Happy Customers</span>
+            </div>
+            <div class="op-stat">
+                <span class="op-stat-num">1000s</span>
+                <span class="op-stat-label" data-i18n="sv.stat.orders">Orders Delivered</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRODUCT SHOWCASE ========== -->
+    <section class="op-products" id="op-products">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag" data-i18n="sv.products.tag">What We Print</span>
+                <h2 class="op-section-heading" data-i18n="sv.products.heading">Whatever You Need Printed, We Do It</h2>
+                <p class="op-section-sub" data-i18n="sv.products.sub">From small visiting cards to full books — we print everything with care and get it to you on time.</p>
+            </div>
+
+            <div class="op-product-grid">
+
+                <!-- Business Essentials -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/offset/Visiting Cards.jpg" alt="Business Essentials" />
+                        <div class="op-product-badge" data-i18n="sv.card1.badge">Most Popular</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="sv.card1.title">Office Stationery</h3>
+                        <p data-i18n="sv.card1.desc">Everything a shop or business needs for everyday use. Looks neat, feels professional.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card1.li1">Visiting Cards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card1.li2">Letterheads</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card1.li3">Envelopes</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card1.li4">Company Profiles</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Account Books -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/offset/Bill Books.jpg" alt="Account Books" />
+                        <div class="op-product-badge op-product-badge--gold" data-i18n="sv.card2.badge">Fast Delivery</div>
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="sv.card2.title">Account Books</h3>
+                        <p data-i18n="sv.card2.desc">Bill books, cash memos, invoice books — all printed cleanly so your daily records stay organised.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card2.li1">Bill Books</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card2.li2">Cash Memo Books</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card2.li3">Invoice Books</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card2.li4">Receipt Books</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Marketing Material -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/offset/Visiting Cards.jpg" alt="Marketing Material" />
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="sv.card3.title">Pamphlets &amp; Brochures</h3>
+                        <p data-i18n="sv.card3.desc">Great for spreading the word about your shop, business, or event. Easy to hand out, easy to read.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card3.li1">Flyers</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card3.li2">Brochures &amp; Pamphlets</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card3.li3">Catalogues</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card3.li4">Product Booklets</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Books & Publishing -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/offset/Bill Books.jpg" alt="Books and Publishing" />
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="sv.card4.title">Books &amp; Publications</h3>
+                        <p data-i18n="sv.card4.desc">For schools, colleges, and publishers. Books, magazines, newsletters, and school prospectuses — all printed with care.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card4.li1">Books</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card4.li2">Magazines</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card4.li3">Newsletters</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card4.li4">School Prospectus</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Custom Printing -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/offset/Visiting Cards.jpg" alt="Custom Printing" />
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="sv.card5.title">Forms &amp; Certificates</h3>
+                        <p data-i18n="sv.card5.desc">Offices, schools, and NGOs often need forms, registers, and certificates. We print exactly what you need.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card5.li1">Certificates</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card5.li2">Forms</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card5.li3">Registers</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card5.li4">Notepads</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Event & Invitation Printing -->
+                <div class="op-product-card">
+                    <div class="op-product-card-img">
+                        <img src="../assets/img/offset/Bill Books.jpg" alt="Event and Invitation Printing" />
+                    </div>
+                    <div class="op-product-card-body">
+                        <h3 data-i18n="sv.card6.title">Invitation &amp; Event Cards</h3>
+                        <p data-i18n="sv.card6.desc">Getting married? Organising an event? We print beautiful cards and passes that leave a good impression.</p>
+                        <ul class="op-product-list">
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card6.li1">Wedding Cards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card6.li2">Invitation Cards</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card6.li3">Event Passes</span></li>
+                            <li><span class="material-icons">check_circle</span> <span data-i18n="sv.card6.li4">Greeting Cards</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ALL PRODUCTS QUICK LIST ========== -->
+    <section class="op-allproducts">
+        <div class="op-container">
+            <div class="op-section-header">
+                <span class="op-section-tag" data-i18n="sv.allprod.tag">Our Full List</span>
+                <h2 class="op-section-heading" data-i18n="sv.allprod.heading">Here's Everything We Can Print</h2>
+            </div>
+            <div class="op-pills-grid">
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.visiting">Visiting Cards</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.billbooks">Bill Books</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.cashmemo">Cash Memo Books</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.invoice">Invoice Books</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.receipt">Receipt Books</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.letterheads">Letterheads</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.envelopes">Envelopes</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.brochures">Brochures</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.pamphlets">Pamphlets</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.flyers">Flyers</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.catalogues">Catalogues</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.booklets">Product Booklets</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.profiles">Company Profiles</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.prospectus">School Prospectus</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.books">Books</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.magazines">Magazines</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.newsletters">Newsletters</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.certs">Certificates</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.registers">Registers</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.notepads">Notepads</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.writingpads">Writing Pads</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.diaries">Diaries</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.calendars">Calendars</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.posters">Posters</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.invitations">Invitation Cards</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.wedding">Wedding Cards</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.forms">Forms</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.educational">Educational Material</span></span>
+                <span class="op-pill"><span class="material-icons">check</span> <span data-i18n="sv.pill.packaging">Packaging Inserts</span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE JYOTI PRESS ========== -->
+    <section class="op-why">
+        <div class="op-container">
+            <div class="op-section-header op-section-header--light">
+                <span class="op-section-tag op-section-tag--light" data-i18n="sv.why.tag">Why Choose Us</span>
+                <h2 class="op-section-heading op-section-heading--light" data-i18n="sv.why.heading">Why Customers Come Back to Jyoti Press</h2>
+                <p class="op-section-sub op-section-sub--light" data-i18n="sv.why.sub">61 years of honest work, fair pricing, and printing you can count on.</p>
+            </div>
+            <div class="op-why-grid">
+                <div class="op-why-card">
+                    <div class="op-why-icon"><span class="material-icons">workspace_premium</span></div>
+                    <h4 data-i18n="sv.why.c1.title">61+ Years of Experience</h4>
+                    <p data-i18n="sv.why.c1.desc">We have been printing in Gorakhpur since 1965. That experience means your work is in safe hands.</p>
+                </div>
+                <div class="op-why-card">
+                    <div class="op-why-icon"><span class="material-icons">high_quality</span></div>
+                    <h4 data-i18n="sv.why.c2.title">Sharp, Clear Printing</h4>
+                    <p data-i18n="sv.why.c2.desc">Every print comes out clean, crisp, and colourful. We check quality before anything leaves our press.</p>
+                </div>
+                <div class="op-why-card">
+                    <div class="op-why-icon"><span class="material-icons">inventory_2</span></div>
+                    <h4 data-i18n="sv.why.c3.title">Any Quantity You Need</h4>
+                    <p data-i18n="sv.why.c3.desc">Whether you need 100 copies or 1,00,000 — we handle both small and large orders equally well.</p>
+                </div>
+                <div class="op-why-card">
+                    <div class="op-why-icon"><span class="material-icons">local_shipping</span></div>
+                    <h4 data-i18n="sv.why.c4.title">On-Time Delivery</h4>
+                    <p data-i18n="sv.why.c4.desc">We know your deadlines matter. We work hard to make sure your order is ready when you need it.</p>
+                </div>
+                <div class="op-why-card">
+                    <div class="op-why-icon"><span class="material-icons">currency_rupee</span></div>
+                    <h4 data-i18n="sv.why.c5.title">Fair and Honest Pricing</h4>
+                    <p data-i18n="sv.why.c5.desc">Good quality at a reasonable price. No hidden charges. You always know what you'll pay.</p>
+                </div>
+                <div class="op-why-card">
+                    <div class="op-why-icon"><span class="material-icons">handshake</span></div>
+                    <h4 data-i18n="sv.why.c6.title">Trusted by Many</h4>
+                    <p data-i18n="sv.why.c6.desc">Hundreds of shops, schools, hospitals, and offices in Gorakhpur have been our regular customers for years.</p>
+                </div>
+                <div class="op-why-card">
+                    <div class="op-why-icon"><span class="material-icons">auto_fix_high</span></div>
+                    <h4 data-i18n="sv.why.c7.title">Neat and Tidy Finishing</h4>
+                    <p data-i18n="sv.why.c7.desc">Clean cuts, proper binding, and a finished look that makes your printed material look professional.</p>
+                </div>
+                <div class="op-why-card">
+                    <div class="op-why-icon"><span class="material-icons">verified</span></div>
+                    <h4 data-i18n="sv.why.c8.title">Always Reliable</h4>
+                    <p data-i18n="sv.why.c8.desc">We are consistent and dependable. Call us, and we will be ready to help you right away.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== BENEFITS STRIP ========== -->
+    <section class="op-benefits">
+        <div class="op-container">
+            <div class="op-benefits-inner">
+                <div class="op-benefit">
+                    <span class="material-icons">palette</span>
+                    <div>
+                        <strong data-i18n="sv.ben.c1.title">True Colours</strong>
+                        <span data-i18n="sv.ben.c1.sub">Your prints come out exactly as you imagined</span>
+                    </div>
+                </div>
+                <div class="op-benefit-sep"></div>
+                <div class="op-benefit">
+                    <span class="material-icons">layers</span>
+                    <div>
+                        <strong data-i18n="sv.ben.c2.title">Many Paper Choices</strong>
+                        <span data-i18n="sv.ben.c2.sub">Matte, glossy, art paper, and more</span>
+                    </div>
+                </div>
+                <div class="op-benefit-sep"></div>
+                <div class="op-benefit">
+                    <span class="material-icons">recycling</span>
+                    <div>
+                        <strong data-i18n="sv.ben.c3.title">Eco-Friendly Options</strong>
+                        <span data-i18n="sv.ben.c3.sub">Available on request</span>
+                    </div>
+                </div>
+                <div class="op-benefit-sep"></div>
+                <div class="op-benefit">
+                    <span class="material-icons">support_agent</span>
+                    <div>
+                        <strong data-i18n="sv.ben.c4.title">We Guide You</strong>
+                        <span data-i18n="sv.ben.c4.sub">From your idea to final delivery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CALL TO ACTION ========== -->
+    <section class="op-cta">
+        <div class="op-cta-bg" style="background-image: url('../assets/img/offset/Offset Printing.jpg');"></div>
+        <div class="op-cta-overlay"></div>
+        <div class="op-container op-cta-inner">
+            <div class="op-cta-text">
+                <h2 data-i18n="sv.cta.heading">Need Something Printed? Let's Talk.</h2>
+                <p data-i18n="sv.cta.para">Just contact us and tell us what you need. We will suggest the best option and give you a clear price. No confusion, no pressure.</p>
+            </div>
+            <div class="op-cta-btns">
+                <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="btn-primary op-cta-wa">
+                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="sv.cta.btn.wa">Chat on WhatsApp</span>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com&su=Printing%20Inquiry"
+                    class="email-btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-envelope"></i>
+                    <span data-i18n="sv.cta.btn.email">Send an Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" id="footer">
+        <div class="footer-main">
+            <div class="footer-grid">
+
+                <div class="footer-col footer-col--brand">
+                    <a href="../index.html#home" class="footer-logo-link" tabindex="-1">
+                        <img src="../assets/img/eng_logo.png" id="footerLogo" alt="Jyoti Press Logo" class="footer-logo-img"
+                            draggable="false" />
+                    </a>
+                    <p class="footer-brand-desc" data-i18n="footer.brand.desc">Helping businesses, schools, and organisations with trusted printing
+                        and advertising services since 1965.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/919415277666" target="_blank" rel="noopener" class="footer-social-link"
+                            aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ql.heading">Quick Links</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="../index.html#home" data-i18n="footer.ql.home">Home</a></li>
+                        <li><a href="../index.html#about" data-i18n="footer.ql.about">About Us</a></li>
+                        <li><a href="../index.html#why-us" data-i18n="footer.ql.whyus">Why Choose Us</a></li>
+                        <li><a href="../index.html#services" data-i18n="footer.ql.services">Our Services</a></li>
+                        <li><a href="contact.html" data-i18n="footer.ql.contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.sv.heading">Services</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="services.html#offset-printing" data-i18n="footer.sv.offset">Offset Printing</a></li>
+                        <li><a href="digitalPrinting.html" data-i18n="footer.sv.digital">Digital Printing</a></li>
+                        <li><a href="screenPrinting.html" data-i18n="footer.sv.screen">Screen Printing</a></li>
+                        <li><a href="flexPrinting.html" data-i18n="footer.sv.flex">Flex Printing</a></li>
+                        <li><a href="hoarding.html" data-i18n="footer.sv.hoarding">Hoarding</a></li>
+                        <li><a href="outdoorAdvertising.html" data-i18n="footer.sv.outdoor">Outdoor Advertising</a></li>
+                        <li><a href="wallWrap.html" data-i18n="footer.sv.wallwrap">Wall Wrap</a></li>
+                        <li><a href="wallPainting.html" data-i18n="footer.sv.wallpaint">Wall Painting</a></li>
+                        <li><a href="event.html" data-i18n="footer.sv.events">Events</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-col-heading" data-i18n="footer.ct.heading">Get In Touch</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span data-i18n-html="footer.ct.address">10 Park Road, Civil Lines,<br>Gorakhpur &mdash; 273009</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jyotipress009@gmail.com"
+                                target="_blank" rel="noopener noreferrer">
+                                jyotipress009@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:9415277666">94152 77666</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <span class="footer-copy" data-i18n="footer.copy">&copy; 2026 Jyoti Press. Serving Gorakhpur Since 1965.</span>
+                <div class="footer-bottom-links">
+                    <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+                    <span class="footer-bottom-sep" aria-hidden="true">|</span>
+                    <a href="#" data-i18n="footer.terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/language.js"></script>
+    <script src="../js/translation/services.js"></script>
+    <script src="../js/services.js"></script>
+</body>
+
+</html>
