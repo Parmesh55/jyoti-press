@@ -29,7 +29,7 @@
       'page.title': 'Jyoti Press — Print & Advertising, Gorakhpur',
 
       /* ── Top bar ── */
-      'topbar.text': 'SERVING GORAKHPUR SINCE 1965 \u00A0·\u00A0 10 PARK ROAD, CIVIL LINES \u00A0·\u00A0 CALL: 94152 77666',
+      'topbar.text': 'SERVING GORAKHPUR SINCE 1965 \u00A0·\u00A0 10 PARK ROAD, CIVIL LINES \u00A0·\u00A0 MON–SAT: 10:00 AM – 9:00 PM \u00A0·\u00A0 CALL: 94152 77666',
 
       /* ── Service ticker ── */
       'ticker.label': 'WE PROVIDE',
@@ -70,18 +70,19 @@
       'hero.exp.years': 'YEARS IN',
       'hero.exp.excel': 'BUSINESS',
 
-      /* ── About section ── */
+            /* ── About section ── */
       'about.badge': 'ESTABLISHED 1965 \u00A0·\u00A0 CIVIL LINES, GORAKHPUR',
-      'about.heading.line1': "Gorakhpur's Printing",
-      'about.heading.accent': 'Partner Since 1965.',
-      'about.para.lead': 'Jyoti Press started in 1965 at 10 Park Road, Civil Lines, Gorakhpur. More than 60 years later, we are still here — at the same address, serving the same city.',
-      'about.para.2': 'Schools, hospitals, government offices, shops, and businesses across Gorakhpur trust us for their printing needs. Whether it is a brochure, a hoarding, or a full event campaign — we get it done right.',
-      'about.hl1.title': '60+ Years in Business',
-      'about.hl1.desc': "One of Gorakhpur's oldest and most trusted print shops",
-      'about.hl2.title': 'All Printing Services Under One Roof',
-      'about.hl2.desc': 'Offset, digital, flex, hoarding, outdoor — no need to go anywhere else',
-      'about.hl3.title': 'Trusted by Everyone',
-      'about.hl3.desc': 'Schools, hospitals, shops, and offices — all served with care',
+      'about.heading.line1': "Gorakhpur's Trusted Printing Partner",
+      'about.heading.accent': 'Serving Since 1965.',
+      'about.para.lead': 'For more than six decades, Jyoti Press has been helping businesses, schools, hospitals, government offices, and local organisations with dependable printing and advertising solutions. Since opening our doors in 1965 at 10 Park Road, Civil Lines, Gorakhpur, we have remained committed to quality work, honest service, and long-term customer relationships.',
+      'about.para.2': 'From everyday printing requirements to large-scale branding campaigns, we provide complete solutions under one roof. Whether you need brochures, visiting cards, books, digital prints, flex boards, hoardings, wall graphics, event branding, or outdoor advertising, our experienced team ensures every project is completed with precision, consistency, and attention to detail.',
+      'about.para.3': 'Over the years, thousands of customers across Gorakhpur have trusted us because we focus on what matters most: quality printing, timely delivery, transparent communication, and service you can rely on. Our goal is simple — to help your message stand out and leave a lasting impression.',
+      'about.hl1.title': '60+ Years of Trusted Service',
+      'about.hl1.desc': 'Serving Gorakhpur continuously since 1965 with reliable printing and advertising solutions.',
+      'about.hl2.title': 'Complete Printing & Advertising Solutions',
+      'about.hl2.desc': 'Offset printing, digital printing, screen printing, flex printing, hoardings, wall wraps, events, and more.',
+      'about.hl3.title': 'Trusted Across Gorakhpur',
+      'about.hl3.desc': 'Preferred by schools, hospitals, offices, shops, institutions, and growing businesses throughout the city.',
       'about.cta': 'Call Us Now',
       'about.est.label': 'Est. Gorakhpur',
       'about.chip.print.num': '9+',
@@ -161,6 +162,9 @@
       'footer.copy': '© 2026 Jyoti Press. Serving Gorakhpur Since 1965.',
       'footer.privacy': 'Privacy Policy',
       'footer.terms': 'Terms of Service',
+      'footer.ct.hours': 'Monday - Saturday: 10:00 AM - 9:00 PM',
+      'ct.card.hours.title': 'Business Hours',
+      'ct.card.hours.body': 'Monday - Saturday: 10:00 AM - 9:00 PM',
 
       /* ── Contact page ── */
       'contact.nav.home': 'Home',
@@ -225,7 +229,7 @@
       'page.title': 'ज्योति प्रेस — प्रिंटिंग और विज्ञापन, गोरखपुर',
 
       /* ── Top bar ── */
-      'topbar.text': '1965 से गोरखपुर की सेवा में \u00A0·\u00A0 10 पार्क रोड, सिविल लाइंस \u00A0·\u00A0 कॉल करें: 94152 77666',
+      'topbar.text': '1965 से गोरखपुर की सेवा में \u00A0·\u00A0 10 पार्क रोड, सिविल लाइंस \u00A0·\u00A0 सोमवार–शनिवार: सुबह 10:00 बजे से रात 9:00 बजे तक \u00A0·\u00A0 कॉल करें: 94152 77666',
 
       /* ── Service ticker ── */
       'ticker.label': 'हमारी सेवाएं',
@@ -253,31 +257,19 @@
       /* ── Language button ── */
       'lang.btn': 'EN / HI',
 
-      /* ── Hero section ── */
-      'hero.badge': 'सिविल लाइंस, गोरखपुर \u00A0·\u00A0 स्थापना 1965',
-      'hero.heading.line1': 'भरोसेमंद प्रिंटिंग &',
-      'hero.heading.accent': '1965 से विज्ञापन सेवा।',
-      'hero.para': 'ज्योति प्रेस पिछले 60 से भी ज़्यादा सालों से गोरखपुर के कारोबारियों, स्कूलों, अस्पतालों और संस्थाओं की मदद कर रहा है। ऑफसेट प्रिंटिंग, डिजिटल प्रिंटिंग, होर्डिंग, फ्लेक्स, आउटडोर विज्ञापन — सब कुछ खुद करते हैं और समय पर देते हैं।',
-      'hero.btn.whatsapp': 'WhatsApp पर बात करें',
-      'hero.info.address': '10 पार्क रोड, सिविल लाइंस, गोरखपुर',
-      'hero.info.phone': '94152 77666',
-      'hero.card.caption.title': 'ज्योति प्रेस',
-      'hero.card.caption.sub': 'प्रिंटिंग और विज्ञापन, गोरखपुर',
-      'hero.exp.years': 'साल से',
-      'hero.exp.excel': 'व्यवसाय में',
-
-      /* ── About section ── */
+           /* ── About section ── */
       'about.badge': 'स्थापना 1965 \u00A0·\u00A0 सिविल लाइंस, गोरखपुर',
-      'about.heading.line1': 'गोरखपुर का प्रिंटिंग',
-      'about.heading.accent': '1965 से साझीदार।',
-      'about.para.lead': 'ज्योति प्रेस की शुरुआत 1965 में 10 पार्क रोड, सिविल लाइंस, गोरखपुर से हुई थी। 60 से ज़्यादा साल बाद भी हम उसी पते पर, उसी शहर की सेवा में हैं।',
-      'about.para.2': 'गोरखपुर के स्कूल, अस्पताल, सरकारी दफ़्तर, दुकानें और कारोबार — सभी अपनी प्रिंटिंग जरूरतों के लिए हम पर भरोसा करते हैं। चाहे ब्रोशर हो, होर्डिंग हो या पूरा इवेंट कैंपेन — हम सही तरीके से करते हैं।',
-      'about.hl1.title': '60+ साल का अनुभव',
-      'about.hl1.desc': 'गोरखपुर की सबसे पुरानी और भरोसेमंद प्रिंट शॉपों में से एक',
-      'about.hl2.title': 'एक ही छत के नीचे सब सेवाएं',
-      'about.hl2.desc': 'ऑफसेट, डिजिटल, फ्लेक्स, होर्डिंग, आउटडोर — कहीं और जाने की ज़रूरत नहीं',
-      'about.hl3.title': 'सबका भरोसा',
-      'about.hl3.desc': 'स्कूल, अस्पताल, दुकानें और दफ़्तर — सभी की देखभाल करते हैं',
+      'about.heading.line1': 'गोरखपुर का भरोसेमंद प्रिंटिंग साथी',
+      'about.heading.accent': '1965 से आपकी सेवा में।',
+      'about.para.lead': 'छह दशकों से भी ज़्यादा समय से ज्योति प्रेस गोरखपुर के कारोबारियों, स्कूलों, अस्पतालों, सरकारी दफ़्तरों और स्थानीय संस्थाओं को भरोसेमंद प्रिंटिंग और विज्ञापन सेवाएं दे रहा है। 1965 में 10 पार्क रोड, सिविल लाइंस, गोरखपुर से शुरू हुई हमारी यह यात्रा आज भी गुणवत्ता, ईमानदारी और लंबे रिश्तों पर आधारित है।',
+      'about.para.2': 'रोज़मर्रा की प्रिंटिंग जरूरतों से लेकर बड़े ब्रांडिंग अभियानों तक, हम एक ही जगह पर पूरी समाधान-सेवा देते हैं। चाहे आपको ब्रोशर, विज़िटिंग कार्ड, किताबें, डिजिटल प्रिंट, फ्लेक्स बोर्ड, होर्डिंग, वॉल ग्राफिक्स, इवेंट ब्रांडिंग या आउटडोर विज्ञापन चाहिए, हमारी अनुभवी टीम हर काम को सटीकता, एकरूपता और बारीकी के साथ पूरा करती है।',
+      'about.para.3': 'सालों से गोरखपुर के हज़ारों ग्राहकों ने हम पर इसलिए भरोसा किया है क्योंकि हम सबसे ज़्यादा ध्यान देते हैं गुणवत्ता, समय पर डिलीवरी, साफ़ संवाद और भरोसेमंद सेवा पर। हमारा लक्ष्य सरल है — आपका संदेश ऐसा दिखे कि वह याद रह जाए।',
+      'about.hl1.title': '60+ साल की भरोसेमंद सेवा',
+      'about.hl1.desc': '1965 से लगातार गोरखपुर की सेवा में, प्रिंटिंग और विज्ञापन के भरोसेमंद समाधान के साथ।',
+      'about.hl2.title': 'प्रिंटिंग और विज्ञापन का पूरा समाधान',
+      'about.hl2.desc': 'ऑफसेट, डिजिटल, स्क्रीन, फ्लेक्स, होर्डिंग, वॉल रैप, इवेंट्स और बहुत कुछ।',
+      'about.hl3.title': 'गोरखपुर भर में भरोसा',
+      'about.hl3.desc': 'स्कूल, अस्पताल, दफ़्तर, दुकानें, संस्थान और बढ़ते व्यवसाय हमें प्राथमिकता देते हैं।',
       'about.cta': 'अभी कॉल करें',
       'about.est.label': 'Est. गोरखपुर',
       'about.chip.print.num': '9+',
@@ -357,6 +349,9 @@
       'footer.copy': '© 2026 ज्योति प्रेस। 1965 से गोरखपुर की सेवा में।',
       'footer.privacy': 'गोपनीयता नीति',
       'footer.terms': 'सेवा की शर्तें',
+      'footer.ct.hours': 'सोमवार - शनिवार: सुबह 10:00 बजे - रात 9:00 बजे',
+      'ct.card.hours.title': 'कार्य समय',
+      'ct.card.hours.body': 'सोमवार - शनिवार: सुबह 10:00 बजे से रात 9:00 बजे तक',
 
       /* ── Contact page ── */
       'contact.nav.home': 'होम',
